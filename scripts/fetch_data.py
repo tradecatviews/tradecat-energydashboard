@@ -72,3 +72,5 @@ for item in data:
 # Save history
 with open(history_file, "w") as f:
     json.dump(history, f, indent=2)
+
+print("HISTORY LENGTHS:", {k: len(v) for k, v in history.items()})
