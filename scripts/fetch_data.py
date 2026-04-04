@@ -1,6 +1,7 @@
 import yfinance as yf
 import json
 from datetime import datetime
+import os
 
 tickers = {
     "Brent": "BZ=F",
@@ -17,10 +18,8 @@ for name, ticker in tickers.items():
     t = yf.Ticker(ticker)
     hist = t.history(period="5d")
 
-    print(hist)  # 👈 ADD THIS
-
-    if len(hist) < 2:
-        print("Not enough data, skipping")  # 👈 ADD THIS
+    if hist.empty or len(hist) < 2:
+        print(f"Not enough data for {name}, skipping")
         continue
 
     latest = hist.iloc[-1]
@@ -36,10 +35,11 @@ for name, ticker in tickers.items():
         "timestamp": datetime.utcnow().isoformat()
     })
 
+# Save latest snapshot
 with open("data/energy.json", "w") as f:
     json.dump(data, f, indent=2)
 
-    import os
+# --- HISTORY LOGIC ---
 
 history_file = "data/history.json"
 
@@ -52,6 +52,7 @@ else:
 
 now = datetime.utcnow().isoformat()
 
+# Append new data
 for item in data:
     name = item["name"]
 
@@ -63,6 +64,8 @@ for item in data:
         "price": item["price"]
     })
 
-# Save updated history
+# Save history
 with open(history_file, "w") as f:
     json.dump(history, f, indent=2)
+
+print("Data + history updated successfully")
