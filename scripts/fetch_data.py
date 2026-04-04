@@ -2,6 +2,7 @@ import yfinance as yf
 import json
 from datetime import datetime
 import os
+import requests
 
 tickers = {
     "Brent": "BZ=F",
@@ -43,31 +44,29 @@ with open("data/energy.json", "w") as f:
 
 history_file = "data/history.json"
 
-# Load existing history safely
-if os.path.exists(history_file):
-    try:
-        with open(history_file, "r") as f:
-            history = json.load(f)
-    except:
-        history = {}
-else:
+url = "https://raw.githubusercontent.com/tradecatviews/tradecat-energydashboard/main/data/history.json"
+
+try:
+    response = requests.get(url)
+    history = response.json()
+except:
     history = {}
 
 now = datetime.utcnow().isoformat()
 
-# Append new data
 for item in data:
     name = item["name"]
 
     if name not in history:
         history[name] = []
 
-    # Prevent duplicates (important!)
-    if len(history[name]) == 0 or history[name][-1]["price"] != item["price"]:
-        history[name].append({
-            "time": now,
-            "price": item["price"]
-        })
+    history[name].append({
+        "time": now,
+        "price": item["price"]
+    })
+
+with open(history_file, "w") as f:
+    json.dump(history, f, indent=2)
 
 # Save history
 with open(history_file, "w") as f:
