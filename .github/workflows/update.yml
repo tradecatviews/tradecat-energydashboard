@@ -25,10 +25,12 @@ jobs:
       - name: Run script
         run: python scripts/fetch_data.py
 
-      - name: Commit data
-        run: |
-          git config --global user.name "bot"
-          git config --global user.email "bot@github.com"
-          git add data/*.json
-          git commit -m "update data" || echo "no changes"
-          git push
+        - name: Commit data
+         run: |
+            git config --global user.name "bot"
+            git config --global user.email "bot@github.com"
+            git add -A
+            git commit -m "update data" || echo "no changes"
+            git push
+
+print("HISTORY LENGTHS:", {k: len(v) for k, v in history.items()})
