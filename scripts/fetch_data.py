@@ -22,7 +22,7 @@ for name, ticker in tickers.items():
     if len(hist) < 2:
         print("Not enough data, skipping")  # 👈 ADD THIS
         continue
-        
+
     latest = hist.iloc[-1]
     prev = hist.iloc[-2]
 
@@ -38,3 +38,31 @@ for name, ticker in tickers.items():
 
 with open("data/energy.json", "w") as f:
     json.dump(data, f, indent=2)
+
+    import os
+
+history_file = "data/history.json"
+
+# Load existing history
+if os.path.exists(history_file):
+    with open(history_file, "r") as f:
+        history = json.load(f)
+else:
+    history = {}
+
+now = datetime.utcnow().isoformat()
+
+for item in data:
+    name = item["name"]
+
+    if name not in history:
+        history[name] = []
+
+    history[name].append({
+        "time": now,
+        "price": item["price"]
+    })
+
+# Save updated history
+with open(history_file, "w") as f:
+    json.dump(history, f, indent=2)
