@@ -43,10 +43,13 @@ with open("data/energy.json", "w") as f:
 
 history_file = "data/history.json"
 
-# Load existing history
+# Load existing history safely
 if os.path.exists(history_file):
-    with open(history_file, "r") as f:
-        history = json.load(f)
+    try:
+        with open(history_file, "r") as f:
+            history = json.load(f)
+    except:
+        history = {}
 else:
     history = {}
 
@@ -59,13 +62,13 @@ for item in data:
     if name not in history:
         history[name] = []
 
-    history[name].append({
-        "time": now,
-        "price": item["price"]
-    })
+    # Prevent duplicates (important!)
+    if len(history[name]) == 0 or history[name][-1]["price"] != item["price"]:
+        history[name].append({
+            "time": now,
+            "price": item["price"]
+        })
 
 # Save history
 with open(history_file, "w") as f:
     json.dump(history, f, indent=2)
-
-print("Data + history updated successfully")
