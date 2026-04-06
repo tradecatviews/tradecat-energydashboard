@@ -1,8 +1,8 @@
 import yfinance as yf
 import json
 from datetime import datetime
-import os
 import requests
+import os
 
 tickers = {
     "Brent": "BZ=F",
@@ -11,20 +11,21 @@ tickers = {
     "NatGas": "NG=F"
 }
 
+# --- STEP 1: FETCH DATA ---
+
 data = []
 
 for name, ticker in tickers.items():
-    print(f"Fetching {name} ({ticker})")
-
     t = yf.Ticker(ticker)
-    hist = t.history(period="5d")
 
-    if hist.empty or len(hist) < 2:
-        print(f"Not enough data for {name}, skipping")
+    # Get 30 days of daily data
+    hist = t.history(period="30d")
+
+    if hist.empty:
         continue
 
     latest = hist.iloc[-1]
-    prev = hist.iloc[-2]
+    prev = hist.iloc[-2] if len(hist) > 1 else latest
 
     price = round(latest["Close"], 2)
     change_pct = round(((price - prev["Close"]) / prev["Close"]) * 100, 2)
@@ -36,13 +37,11 @@ for name, ticker in tickers.items():
         "timestamp": datetime.utcnow().isoformat()
     })
 
-# Save latest snapshot
+# Save snapshot
 with open("data/energy.json", "w") as f:
     json.dump(data, f, indent=2)
 
-# --- HISTORY LOGIC ---
-
-history_file = "data/history.json"
+# --- STEP 2: LOAD EXISTING HISTORY FROM GITHUB ---
 
 url = "https://raw.githubusercontent.com/tradecatviews/tradecat-energydashboard/main/data/history.json"
 
@@ -52,24 +51,39 @@ try:
 except:
     history = {}
 
-now = datetime.utcnow().isoformat()
+# --- STEP 3: BUILD / UPDATE HISTORY ---
 
-for item in data:
-    name = item["name"]
+for name, ticker in tickers.items():
+    t = yf.Ticker(ticker)
+    hist = t.history(period="30d")
 
-    if name not in history:
-        history[name] = []
+    if hist.empty:
+        continue
 
-    history[name].append({
-        "time": now,
-        "price": item["price"]
-    })
+    # Convert dataframe → list of points
+    new_points = [
+        {
+            "time": str(idx),
+            "price": round(row["Close"], 2)
+        }
+        for idx, row in hist.iterrows()
+    ]
 
-with open(history_file, "w") as f:
+    if name not in history or len(history[name]) < 10:
+        # 🔥 FIRST RUN → seed full 30 days
+        history[name] = new_points
+    else:
+        # Append only latest point
+        last_price = history[name][-1]["price"]
+
+        latest_price = new_points[-1]["price"]
+
+        if latest_price != last_price:
+            history[name].append(new_points[-1])
+
+# --- STEP 4: SAVE HISTORY ---
+
+with open("data/history.json", "w") as f:
     json.dump(history, f, indent=2)
 
-# Save history
-with open(history_file, "w") as f:
-    json.dump(history, f, indent=2)
-
-print("HISTORY LENGTHS:", {k: len(v) for k, v in history.items()})
+print("✅ Data + 30-day history updated")
