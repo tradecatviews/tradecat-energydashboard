@@ -14,7 +14,7 @@ history = {}
 
 for name, ticker in tickers.items():
     t = yf.Ticker(ticker)
-    hist = t.history(period="30d")
+    hist = t.history(period="100d")
 
     if hist.empty:
         continue
@@ -34,7 +34,7 @@ for name, ticker in tickers.items():
 
     history[name] = [
         {
-            "time": str(idx),
+            "time": idx.strftime("%Y-%m-%d"),
             "price": round(row["Close"], 2)
         }
         for idx, row in hist.iterrows()
