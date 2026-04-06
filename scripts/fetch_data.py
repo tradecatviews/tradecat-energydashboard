@@ -69,7 +69,7 @@ for name, ticker in tickers.items():
         for idx, row in hist.iterrows()
     ]
 
-    if name not in history or len(history[name]) < 10:
+# FORCE overwrite history (temporary)
         # 🔥 FIRST RUN → seed full 30 days
         history[name] = new_points
     else:
