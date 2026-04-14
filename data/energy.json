@@ -1,26 +1,26 @@
 [
   {
     "name": "Brent",
-    "price": 98.32,
-    "change_pct": -1.05,
-    "timestamp": "2026-04-14T06:16:27.137923"
+    "price": 99.12,
+    "change_pct": -0.24,
+    "timestamp": "2026-04-14T10:48:46.251269"
   },
   {
     "name": "WTI",
-    "price": 97.31,
-    "change_pct": -1.79,
-    "timestamp": "2026-04-14T06:16:27.213676"
+    "price": 97.38,
+    "change_pct": -1.72,
+    "timestamp": "2026-04-14T10:48:46.331081"
   },
   {
     "name": "GasoilProxy",
-    "price": 3.63,
-    "change_pct": -5.32,
-    "timestamp": "2026-04-14T06:16:27.285825"
+    "price": 3.64,
+    "change_pct": -5.06,
+    "timestamp": "2026-04-14T10:48:46.446085"
   },
   {
     "name": "NatGas",
-    "price": 2.6,
-    "change_pct": -1.03,
-    "timestamp": "2026-04-14T06:16:27.357446"
+    "price": 2.61,
+    "change_pct": -0.65,
+    "timestamp": "2026-04-14T10:48:46.530538"
   }
 ]
