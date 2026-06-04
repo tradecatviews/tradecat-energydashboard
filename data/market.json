@@ -1,0 +1,155 @@
+{
+  "updated": "2026-06-04T12:18:55.872832+00:00",
+  "instruments": [
+    {
+      "name": "S&P 500 ETF",
+      "symbol": "SPY",
+      "asset_class": "Equity Index",
+      "region": "US",
+      "price": 754.24,
+      "change_pct": -0.7,
+      "last_dividend": 1.8,
+      "last_dividend_date": "2026-03-20"
+    },
+    {
+      "name": "Nasdaq 100 ETF",
+      "symbol": "QQQ",
+      "asset_class": "Equity Index",
+      "region": "US",
+      "price": 744.21,
+      "change_pct": -0.26,
+      "last_dividend": 0.73,
+      "last_dividend_date": "2026-03-23"
+    },
+    {
+      "name": "Nvidia",
+      "symbol": "NVDA",
+      "asset_class": "Equity",
+      "region": "US",
+      "price": 214.75,
+      "change_pct": -3.62,
+      "last_dividend": 0.01,
+      "last_dividend_date": "2026-03-11"
+    },
+    {
+      "name": "Tesla",
+      "symbol": "TSLA",
+      "asset_class": "Equity",
+      "region": "US",
+      "price": 423.7,
+      "change_pct": -0.01,
+      "last_dividend": null,
+      "last_dividend_date": null
+    },
+    {
+      "name": "Apple",
+      "symbol": "AAPL",
+      "asset_class": "Equity",
+      "region": "US",
+      "price": 310.26,
+      "change_pct": -1.57,
+      "last_dividend": 0.27,
+      "last_dividend_date": "2026-05-11"
+    },
+    {
+      "name": "Brent Crude",
+      "symbol": "BZ=F",
+      "asset_class": "Energy",
+      "region": "Global",
+      "price": 94.12,
+      "change_pct": -3.77,
+      "last_dividend": null,
+      "last_dividend_date": null
+    },
+    {
+      "name": "WTI Crude",
+      "symbol": "CL=F",
+      "asset_class": "Energy",
+      "region": "Global",
+      "price": 92.14,
+      "change_pct": -4.04,
+      "last_dividend": null,
+      "last_dividend_date": null
+    },
+    {
+      "name": "Natural Gas",
+      "symbol": "NG=F",
+      "asset_class": "Energy",
+      "region": "Global",
+      "price": 3.27,
+      "change_pct": 1.68,
+      "last_dividend": null,
+      "last_dividend_date": null
+    },
+    {
+      "name": "Gold",
+      "symbol": "GC=F",
+      "asset_class": "Metals",
+      "region": "Global",
+      "price": 4528.0,
+      "change_pct": 2.06,
+      "last_dividend": null,
+      "last_dividend_date": null
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC-USD",
+      "asset_class": "Crypto",
+      "region": "Global",
+      "price": 62654.74,
+      "change_pct": -2.12,
+      "last_dividend": null,
+      "last_dividend_date": null
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH-USD",
+      "asset_class": "Crypto",
+      "region": "Global",
+      "price": 1748.38,
+      "change_pct": -3.5,
+      "last_dividend": null,
+      "last_dividend_date": null
+    },
+    {
+      "name": "Nikkei 225",
+      "symbol": "^N225",
+      "asset_class": "Equity Index",
+      "region": "Asia",
+      "price": 67470.69,
+      "change_pct": -1.36,
+      "last_dividend": null,
+      "last_dividend_date": null
+    },
+    {
+      "name": "Hang Seng",
+      "symbol": "^HSI",
+      "asset_class": "Equity Index",
+      "region": "Asia",
+      "price": 25253.4,
+      "change_pct": -1.48,
+      "last_dividend": null,
+      "last_dividend_date": null
+    },
+    {
+      "name": "Tencent (HK)",
+      "symbol": "0700.HK",
+      "asset_class": "Equity",
+      "region": "Asia",
+      "price": 459.0,
+      "change_pct": -1.59,
+      "last_dividend": 5.3,
+      "last_dividend_date": "2026-05-15"
+    },
+    {
+      "name": "Samsung (KR)",
+      "symbol": "005930.KS",
+      "asset_class": "Equity",
+      "region": "Asia",
+      "price": 351500.0,
+      "change_pct": -2.5,
+      "last_dividend": 372.0,
+      "last_dividend_date": "2026-03-30"
+    }
+  ]
+}

@@ -1,8 +1,9 @@
-name: Update Energy Data
+name: Update Market Data
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 22 * * 1-5"   # ~after US close (UTC)
+    - cron: "0 9 * * 1-5"    # ~after Asia close (UTC)
   workflow_dispatch:
 
 jobs:
@@ -12,8 +13,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -21,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install yfinance requests
+        run: pip install yfinance pandas feedparser
 
       - name: Run script
         run: python scripts/fetch_data.py
@@ -30,6 +29,6 @@ jobs:
         run: |
           git config --global user.name "bot"
           git config --global user.email "bot@github.com"
-          git add -A
+          git add data/*.json
           git commit -m "update data" || echo "no changes"
           git push
