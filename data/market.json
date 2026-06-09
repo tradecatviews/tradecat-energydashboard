@@ -1,13 +1,13 @@
 {
-  "updated": "2026-06-09T11:53:49.359711+00:00",
+  "updated": "2026-06-09T23:16:26.354316+00:00",
   "instruments": [
     {
       "name": "S&P 500 ETF",
       "symbol": "SPY",
       "asset_class": "Equity Index",
       "region": "US",
-      "price": 739.22,
-      "change_pct": 0.23,
+      "price": 737.05,
+      "change_pct": -0.29,
       "last_dividend": 1.8,
       "last_dividend_date": "2026-03-20"
     },
@@ -16,8 +16,8 @@
       "symbol": "QQQ",
       "asset_class": "Equity Index",
       "region": "US",
-      "price": 716.07,
-      "change_pct": 1.56,
+      "price": 707.83,
+      "change_pct": -1.15,
       "last_dividend": 0.73,
       "last_dividend_date": "2026-03-23"
     },
@@ -26,8 +26,8 @@
       "symbol": "NVDA",
       "asset_class": "Equity",
       "region": "US",
-      "price": 208.64,
-      "change_pct": 1.73,
+      "price": 208.19,
+      "change_pct": -0.22,
       "last_dividend": 0.25,
       "last_dividend_date": "2026-06-04"
     },
@@ -36,8 +36,8 @@
       "symbol": "TSLA",
       "asset_class": "Equity",
       "region": "US",
-      "price": 408.95,
-      "change_pct": 4.59,
+      "price": 396.68,
+      "change_pct": -3.0,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -46,8 +46,8 @@
       "symbol": "AAPL",
       "asset_class": "Equity",
       "region": "US",
-      "price": 301.54,
-      "change_pct": -1.89,
+      "price": 290.55,
+      "change_pct": -3.64,
       "last_dividend": 0.27,
       "last_dividend_date": "2026-05-11"
     },
@@ -56,8 +56,8 @@
       "symbol": "BZ=F",
       "asset_class": "Energy",
       "region": "Global",
-      "price": 92.88,
-      "change_pct": -1.45,
+      "price": 92.25,
+      "change_pct": -2.12,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -66,8 +66,8 @@
       "symbol": "CL=F",
       "asset_class": "Energy",
       "region": "Global",
-      "price": 89.6,
-      "change_pct": -1.86,
+      "price": 88.95,
+      "change_pct": -2.57,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -76,8 +76,8 @@
       "symbol": "NG=F",
       "asset_class": "Energy",
       "region": "Global",
-      "price": 3.18,
-      "change_pct": 0.99,
+      "price": 3.13,
+      "change_pct": -0.38,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -86,8 +86,8 @@
       "symbol": "GC=F",
       "asset_class": "Metals",
       "region": "Global",
-      "price": 4362.5,
-      "change_pct": 0.61,
+      "price": 4267.7,
+      "change_pct": -1.57,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -96,8 +96,8 @@
       "symbol": "BTC-USD",
       "asset_class": "Crypto",
       "region": "Global",
-      "price": 62603.59,
-      "change_pct": -0.77,
+      "price": 61793.19,
+      "change_pct": -2.06,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -106,8 +106,8 @@
       "symbol": "ETH-USD",
       "asset_class": "Crypto",
       "region": "Global",
-      "price": 1670.5,
-      "change_pct": -1.16,
+      "price": 1640.3,
+      "change_pct": -2.95,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -116,8 +116,8 @@
       "symbol": "^N225",
       "asset_class": "Equity Index",
       "region": "Asia",
-      "price": 65416.63,
-      "change_pct": 2.17,
+      "price": 64024.6,
+      "change_pct": -3.85,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -126,8 +126,8 @@
       "symbol": "^HSI",
       "asset_class": "Equity Index",
       "region": "Asia",
-      "price": 24565.9,
-      "change_pct": -0.37,
+      "price": 24657.06,
+      "change_pct": -1.22,
       "last_dividend": null,
       "last_dividend_date": null
     },
