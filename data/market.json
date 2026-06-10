@@ -1,13 +1,13 @@
 {
-  "updated": "2026-06-09T23:16:26.354316+00:00",
+  "updated": "2026-06-10T12:15:10.449571+00:00",
   "instruments": [
     {
       "name": "S&P 500 ETF",
       "symbol": "SPY",
       "asset_class": "Equity Index",
       "region": "US",
-      "price": 737.05,
-      "change_pct": -0.29,
+      "price": 739.22,
+      "change_pct": 0.23,
       "last_dividend": 1.8,
       "last_dividend_date": "2026-03-20"
     },
@@ -16,8 +16,8 @@
       "symbol": "QQQ",
       "asset_class": "Equity Index",
       "region": "US",
-      "price": 707.83,
-      "change_pct": -1.15,
+      "price": 716.07,
+      "change_pct": 1.56,
       "last_dividend": 0.73,
       "last_dividend_date": "2026-03-23"
     },
@@ -26,8 +26,8 @@
       "symbol": "NVDA",
       "asset_class": "Equity",
       "region": "US",
-      "price": 208.19,
-      "change_pct": -0.22,
+      "price": 208.64,
+      "change_pct": 1.73,
       "last_dividend": 0.25,
       "last_dividend_date": "2026-06-04"
     },
@@ -36,8 +36,8 @@
       "symbol": "TSLA",
       "asset_class": "Equity",
       "region": "US",
-      "price": 396.68,
-      "change_pct": -3.0,
+      "price": 408.95,
+      "change_pct": 4.59,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -46,8 +46,8 @@
       "symbol": "AAPL",
       "asset_class": "Equity",
       "region": "US",
-      "price": 290.55,
-      "change_pct": -3.64,
+      "price": 301.54,
+      "change_pct": -1.89,
       "last_dividend": 0.27,
       "last_dividend_date": "2026-05-11"
     },
@@ -56,8 +56,8 @@
       "symbol": "BZ=F",
       "asset_class": "Energy",
       "region": "Global",
-      "price": 92.25,
-      "change_pct": -2.12,
+      "price": 92.89,
+      "change_pct": 1.57,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -66,8 +66,8 @@
       "symbol": "CL=F",
       "asset_class": "Energy",
       "region": "Global",
-      "price": 88.95,
-      "change_pct": -2.57,
+      "price": 89.78,
+      "change_pct": 1.79,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -76,8 +76,8 @@
       "symbol": "NG=F",
       "asset_class": "Energy",
       "region": "Global",
-      "price": 3.13,
-      "change_pct": -0.38,
+      "price": 3.23,
+      "change_pct": 2.93,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -86,8 +86,8 @@
       "symbol": "GC=F",
       "asset_class": "Metals",
       "region": "Global",
-      "price": 4267.7,
-      "change_pct": -1.57,
+      "price": 4170.7,
+      "change_pct": -2.1,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -96,8 +96,8 @@
       "symbol": "BTC-USD",
       "asset_class": "Crypto",
       "region": "Global",
-      "price": 61793.19,
-      "change_pct": -2.06,
+      "price": 61132.26,
+      "change_pct": -0.83,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -106,8 +106,8 @@
       "symbol": "ETH-USD",
       "asset_class": "Crypto",
       "region": "Global",
-      "price": 1640.3,
-      "change_pct": -2.95,
+      "price": 1622.24,
+      "change_pct": -0.94,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -116,8 +116,8 @@
       "symbol": "^N225",
       "asset_class": "Equity Index",
       "region": "Asia",
-      "price": 64024.6,
-      "change_pct": -3.85,
+      "price": 64179.27,
+      "change_pct": 0.24,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -126,8 +126,8 @@
       "symbol": "^HSI",
       "asset_class": "Equity Index",
       "region": "Asia",
-      "price": 24657.06,
-      "change_pct": -1.22,
+      "price": 24407.96,
+      "change_pct": -1.01,
       "last_dividend": null,
       "last_dividend_date": null
     },
@@ -136,8 +136,8 @@
       "symbol": "0700.HK",
       "asset_class": "Equity",
       "region": "Asia",
-      "price": 453.2,
-      "change_pct": 1.52,
+      "price": 465.6,
+      "change_pct": 2.74,
       "last_dividend": 5.3,
       "last_dividend_date": "2026-05-15"
     },
@@ -146,8 +146,8 @@
       "symbol": "005930.KS",
       "asset_class": "Equity",
       "region": "Asia",
-      "price": 322000.0,
-      "change_pct": 8.97,
+      "price": 302500.0,
+      "change_pct": -6.06,
       "last_dividend": 372.0,
       "last_dividend_date": "2026-03-30"
     }
