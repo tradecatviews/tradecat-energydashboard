@@ -24,6 +24,20 @@
   nav button.active{color:var(--txt);border-bottom-color:var(--accent);font-weight:600}
   main{padding:20px;max-width:1180px;margin:0 auto}
   .tab{display:none}.tab.active{display:block}
+
+  /* indicator strip */
+  .indicators{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+  .ind{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:11px 14px}
+  .ind .lbl{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.3px;display:block}
+  .ind .val{font-size:20px;font-weight:600;margin-top:3px}
+  .ind .asof{color:var(--muted);font-size:10px}
+
+  /* filter chips */
+  .chips{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
+  .chip{background:var(--panel);border:1px solid var(--line);color:var(--muted);border-radius:14px;
+        padding:5px 13px;cursor:pointer;font-size:12.5px}
+  .chip.active{background:var(--accent);border-color:var(--accent);color:#0e1117;font-weight:600}
+
   table{width:100%;border-collapse:collapse}
   th,td{text-align:right;padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
   th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
@@ -34,10 +48,17 @@
   .sym{font-weight:600}
   .tag{color:var(--muted);font-size:11px;border:1px solid var(--line);border-radius:10px;padding:1px 8px}
   .up{color:var(--up)}.down{color:var(--down)}
-  .chartwrap{margin-top:18px;background:var(--panel);border:1px solid var(--line);
-             border-radius:10px;padding:16px;height:340px}
-  .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-  @media(max-width:820px){.grid{grid-template-columns:1fr}}
+
+  /* chart + range controls */
+  .chartbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:18px}
+  .ranges{display:flex;gap:5px}
+  .ranges button{background:var(--panel);border:1px solid var(--line);color:var(--muted);
+                 border-radius:7px;padding:5px 11px;cursor:pointer;font-size:12.5px}
+  .ranges button.active{background:var(--accent);border-color:var(--accent);color:#0e1117;font-weight:600}
+  .dates{margin-left:auto;display:flex;align-items:center;gap:6px;color:var(--muted);font-size:12px}
+  .dates input{background:var(--panel);border:1px solid var(--line);color:var(--txt);border-radius:6px;padding:4px 7px;font-size:12px}
+  .chartwrap{margin-top:10px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;height:340px}
+
   .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:14px}
   .card h3{margin:0 0 4px;font-size:15px}
   .card .move{font-size:13px;margin-bottom:8px}
@@ -52,7 +73,7 @@
 </head>
 <body>
 <header>
-  <h1><b>TradeCat</b> · Market Dashboard</h1>
+  <h1><b>TradeCat</b> &middot; Market Dashboard</h1>
   <span class="updated" id="updated"></span>
 </header>
 <nav>
@@ -63,6 +84,11 @@
 <main>
   <!-- TAB 1 -->
   <section class="tab active" id="market">
+    <h2 class="section">Key macro indicators</h2>
+    <div class="indicators" id="indicators"></div>
+
+    <h2 class="section">Markets</h2>
+    <div class="chips" id="classChips"></div>
     <table id="mktTable">
       <thead><tr>
         <th data-k="symbol">Symbol</th><th data-k="name">Name</th>
@@ -71,7 +97,20 @@
       </tr></thead>
       <tbody></tbody>
     </table>
+
+    <div class="chartbar">
+      <div class="ranges" id="ranges">
+        <button data-d="21">1M</button><button data-d="63">3M</button>
+        <button data-d="126">6M</button><button data-d="252" class="active">1Y</button>
+        <button data-d="0">All</button>
+      </div>
+      <div class="dates">
+        <label>From <input type="date" id="fromDate"></label>
+        <label>To <input type="date" id="toDate"></label>
+      </div>
+    </div>
     <div class="chartwrap"><canvas id="bigChart"></canvas></div>
+
     <h2 class="section">Global market headlines</h2>
     <ul class="news" id="globalNews"></ul>
   </section>
@@ -96,32 +135,59 @@
 
 <script>
 const DATA = "./data/";
-let MARKET, HISTORY, NEWS, chart, sortKey="change_pct", sortDir=1;
+let MARKET, HISTORY, NEWS, IND, chart;
+let sortKey="change_pct", sortDir=1, curSym=null, curRange=252, classFilter="All";
 
 const fmt = n => n==null ? "—" : Number(n).toLocaleString(undefined,{maximumFractionDigits:2});
 const pct = n => n==null ? "—" : (n>0?"+":"")+n.toFixed(2)+"%";
 const cls = n => n>0?"up":n<0?"down":"";
 
 async function load(){
-  [MARKET,HISTORY,NEWS] = await Promise.all([
+  [MARKET,HISTORY,NEWS,IND] = await Promise.all([
     fetch(DATA+"market.json").then(r=>r.json()),
     fetch(DATA+"history.json").then(r=>r.json()),
     fetch(DATA+"news.json").then(r=>r.json()),
+    fetch(DATA+"indicators.json").then(r=>r.json()).catch(()=>({indicators:[]})),
   ]);
   document.getElementById("updated").textContent =
-    "updated " + new Date(MARKET.updated).toLocaleString();
-  renderMarket(); renderMovers(); renderAsia(); renderNewsList("globalNews",NEWS.macro.global);
+    "updated " + new Date(MARKET.updated).toLocaleString() + " · end-of-day data";
+  renderIndicators(); renderChips(); renderMarket(); renderMovers(); renderAsia();
+  renderNewsList("globalNews",NEWS.macro.global);
   renderNewsList("asiaNews",NEWS.macro.asia);
-  selectRow(MARKET.instruments[0].symbol);
+  const first = filtered()[0] || MARKET.instruments[0];
+  selectRow(first.symbol);
+}
+
+function renderIndicators(){
+  document.getElementById("indicators").innerHTML = (IND.indicators||[]).map(i=>{
+    const sign = i.unit==="pp" ? (i.value>0?"up":i.value<0?"down":"") : "";
+    return `<div class="ind"><span class="lbl">${i.name}</span>
+      <div class="val ${sign}">${fmt(i.value)}${i.unit==="%"?"%":i.unit==="pp"?" pp":""}</div>
+      <span class="asof">as of ${i.asof||""} · ${i.source||""}</span></div>`;
+  }).join("") || "<span class='updated'>No indicator data.</span>";
+}
+
+function classes(){ return MARKET.asset_class_order || [...new Set(MARKET.instruments.map(i=>i.asset_class))]; }
+function renderChips(){
+  const all = ["All", ...classes()];
+  document.getElementById("classChips").innerHTML = all.map(c=>
+    `<span class="chip ${c===classFilter?"active":""}" data-c="${c}">${c}</span>`).join("");
+  document.querySelectorAll("#classChips .chip").forEach(ch=>ch.onclick=()=>{
+    classFilter=ch.dataset.c; renderChips(); renderMarket();
+    const f=filtered(); if(f.length) selectRow(f[0].symbol);
+  });
+}
+function filtered(){
+  let rows = classFilter==="All" ? MARKET.instruments
+           : MARKET.instruments.filter(i=>i.asset_class===classFilter);
+  return [...rows].sort((a,b)=>{
+    let x=a[sortKey],y=b[sortKey]; x=x==null?-1e9:x; y=y==null?-1e9:y;
+    return (x<y?-1:x>y?1:0)*sortDir;});
 }
 
 function renderMarket(){
   const tb = document.querySelector("#mktTable tbody");
-  const rows = [...MARKET.instruments].sort((a,b)=>{
-    let x=a[sortKey],y=b[sortKey]; x=x==null?-1e9:x; y=y==null?-1e9:y;
-    return (x<y?-1:x>y?1:0)*sortDir;
-  });
-  tb.innerHTML = rows.map(i=>`
+  tb.innerHTML = filtered().map(i=>`
     <tr data-sym="${i.symbol}">
       <td class="sym">${i.symbol}</td><td>${i.name}</td>
       <td><span class="tag">${i.asset_class}</span></td>
@@ -129,27 +195,50 @@ function renderMarket(){
       <td class="${cls(i.change_pct)}">${pct(i.change_pct)}</td>
       <td>${i.last_dividend==null?"—":fmt(i.last_dividend)}</td>
     </tr>`).join("");
-  tb.querySelectorAll("tr").forEach(tr=>
-    tr.onclick=()=>selectRow(tr.dataset.sym));
+  tb.querySelectorAll("tr").forEach(tr=>tr.onclick=()=>selectRow(tr.dataset.sym));
+  highlight();
 }
-
 document.querySelectorAll("#mktTable th").forEach(th=>th.onclick=()=>{
-  const k=th.dataset.k; sortDir = (k===sortKey)? -sortDir : 1; sortKey=k; renderMarket();
+  const k=th.dataset.k; sortDir=(k===sortKey)?-sortDir:1; sortKey=k; renderMarket();
 });
 
-function selectRow(sym){
+function highlight(){
   document.querySelectorAll("#mktTable tbody tr").forEach(tr=>
-    tr.classList.toggle("sel", tr.dataset.sym===sym));
-  drawChart(sym);
+    tr.classList.toggle("sel", tr.dataset.sym===curSym));
+}
+function selectRow(sym){ curSym=sym; highlight(); drawChart(); }
+
+// range buttons
+document.querySelectorAll("#ranges button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#ranges button").forEach(x=>x.classList.remove("active"));
+  b.classList.add("active"); curRange=+b.dataset.d;
+  document.getElementById("fromDate").value=""; document.getElementById("toDate").value="";
+  drawChart();
+});
+// custom date inputs
+["fromDate","toDate"].forEach(id=>document.getElementById(id).onchange=()=>{
+  document.querySelectorAll("#ranges button").forEach(x=>x.classList.remove("active"));
+  drawChart();
+});
+
+function sliceData(sym){
+  let h = HISTORY[sym]||[];
+  const from=document.getElementById("fromDate").value, to=document.getElementById("toDate").value;
+  if(from||to){
+    h = h.filter(p => (!from||p.time>=from) && (!to||p.time<=to));
+  } else if(curRange>0){
+    h = h.slice(-curRange);
+  }
+  return h;
 }
 
-function drawChart(sym){
-  const h = HISTORY[sym]||[];
-  const labels = h.map(p=>p.time), data = h.map(p=>p.price);
-  const inst = MARKET.instruments.find(i=>i.symbol===sym)||{};
-  const col = inst.change_pct>=0 ? "#26a269" : "#e5534b";
+function drawChart(){
+  const sym=curSym, h=sliceData(sym);
+  const labels=h.map(p=>p.time), data=h.map(p=>p.price);
+  const inst=MARKET.instruments.find(i=>i.symbol===sym)||{};
+  const col = data.length>1 && data[data.length-1]>=data[0] ? "#26a269" : "#e5534b";
   if(chart) chart.destroy();
-  chart = new Chart(document.getElementById("bigChart"),{
+  chart=new Chart(document.getElementById("bigChart"),{
     type:"line",
     data:{labels,datasets:[{label:`${inst.name} (${sym})`,data,borderColor:col,
       backgroundColor:col+"22",fill:true,pointRadius:0,borderWidth:2,tension:.15}]},
@@ -165,11 +254,11 @@ function renderMovers(){
     Math.abs(b.change_pct||0)-Math.abs(a.change_pct||0));
   document.getElementById("moverCards").innerHTML = items.map(i=>{
     const news=(NEWS.by_ticker[i.symbol]||[]).map(n=>
-      `<li><a href="${n.link}" target="_blank">${n.title}</a>
+      `<li><a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
         <span class="src">${n.publisher||""}</span></li>`).join("")
       || `<li class="src">No headlines today.</li>`;
     return `<div class="card">
-      <h3>${i.name} <span class="tag">${i.symbol}</span></h3>
+      <h3>${i.name} <span class="tag">${i.symbol}</span> <span class="tag">${i.asset_class}</span></h3>
       <div class="move">${fmt(i.price)} ·
         <span class="${cls(i.change_pct)}">${pct(i.change_pct)}</span></div>
       <ul class="news">${news}</ul></div>`;
@@ -187,7 +276,7 @@ function renderAsia(){
 
 function renderNewsList(id,items){
   document.getElementById(id).innerHTML = items.map(n=>
-    `<li><a href="${n.link}" target="_blank">${n.title}</a>
+    `<li><a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
       <span class="src">${n.source||n.publisher||""}</span></li>`).join("");
 }
 

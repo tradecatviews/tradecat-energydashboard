@@ -1,0 +1,61 @@
+{
+  "updated": "2026-06-14T12:40:17.763781+00:00",
+  "indicators": [
+    {
+      "name": "US Inflation (CPI, YoY)",
+      "value": 4.27,
+      "unit": "%",
+      "asof": "2026-05",
+      "source": "FRED"
+    },
+    {
+      "name": "Core CPI (YoY)",
+      "value": 2.96,
+      "unit": "%",
+      "asof": "2026-05",
+      "source": "FRED"
+    },
+    {
+      "name": "Unemployment Rate",
+      "value": 4.3,
+      "unit": "%",
+      "asof": "2026-05",
+      "source": "FRED"
+    },
+    {
+      "name": "Fed Funds Rate",
+      "value": 3.63,
+      "unit": "%",
+      "asof": "2026-05",
+      "source": "FRED"
+    },
+    {
+      "name": "3M Treasury Yield",
+      "value": 3.62,
+      "unit": "%",
+      "asof": "2026-06-12",
+      "source": "CBOE"
+    },
+    {
+      "name": "10Y Treasury Yield",
+      "value": 4.49,
+      "unit": "%",
+      "asof": "2026-06-12",
+      "source": "CBOE"
+    },
+    {
+      "name": "30Y Treasury Yield",
+      "value": 4.97,
+      "unit": "%",
+      "asof": "2026-06-12",
+      "source": "CBOE"
+    },
+    {
+      "name": "Yield Curve (10Y-3M)",
+      "value": 0.87,
+      "unit": "pp",
+      "asof": "2026-06-14",
+      "source": "derived"
+    }
+  ]
+}

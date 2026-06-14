@@ -1,49 +1,94 @@
 """
 Dashboard configuration — edit this file to change what the dashboard shows.
 
-Two things live here:
-  1. INSTRUMENTS  -> the tickers shown in the "Overall Market" table + charts
-  2. NEWS_FEEDS   -> the RSS sources for the macro / Asia news strips
+  1. INSTRUMENTS   -> tickers in the "Overall Market" table + charts (grouped by asset class)
+  2. FRED_SERIES   -> macro indicators (inflation, unemployment, ...) — no API key
+  3. YIELD_INDICES -> treasury yields via yfinance
+  4. NEWS_FEEDS    -> RSS sources for the macro / Asia news strips
 
-Adding a ticker = add one line. Adding a news source = add one URL.
-Nothing else needs to change.
+Adding a ticker = add one line. Adding an indicator = add one line. No other code changes needed.
 """
 
 # ---------------------------------------------------------------------------
-# 1. INSTRUMENTS  (symbol uses Yahoo Finance convention)
-#    asset_class is just a label used for grouping in the UI.
+# 1. INSTRUMENTS  (Yahoo Finance symbols)
+#    asset_class drives the filter buttons on the Overall Market tab.
 # ---------------------------------------------------------------------------
 INSTRUMENTS = [
-    # name (display)        yahoo symbol   asset_class        region
-    ("S&P 500 ETF",         "SPY",         "Equity Index",    "US"),
-    ("Nasdaq 100 ETF",      "QQQ",         "Equity Index",    "US"),
-    ("Nvidia",              "NVDA",        "Equity",          "US"),
-    ("Tesla",               "TSLA",        "Equity",          "US"),
-    ("Apple",               "AAPL",        "Equity",          "US"),
-    ("Brent Crude",         "BZ=F",        "Energy",          "Global"),
-    ("WTI Crude",           "CL=F",        "Energy",          "Global"),
-    ("Natural Gas",         "NG=F",        "Energy",          "Global"),
-    ("Gold",                "GC=F",        "Metals",          "Global"),
-    ("Bitcoin",             "BTC-USD",     "Crypto",          "Global"),
-    ("Ethereum",            "ETH-USD",     "Crypto",          "Global"),
-    # ---- Asia ----
-    ("Nikkei 225",          "^N225",       "Equity Index",    "Asia"),
-    ("Hang Seng",           "^HSI",        "Equity Index",    "Asia"),
-    ("Tencent (HK)",        "0700.HK",     "Equity",          "Asia"),
-    ("Samsung (KR)",        "005930.KS",   "Equity",          "Asia"),
+    # name (display)        yahoo symbol   asset_class    region
+    # ---- Indices ----
+    ("S&P 500 ETF",         "SPY",         "Index",       "US"),
+    ("Nasdaq 100 ETF",      "QQQ",         "Index",       "US"),
+    ("Dow Jones",           "^DJI",        "Index",       "US"),
+    ("Russell 2000",        "^RUT",        "Index",       "US"),
+    ("Nikkei 225",          "^N225",       "Index",       "Asia"),
+    ("Hang Seng",           "^HSI",        "Index",       "Asia"),
+    ("FTSE 100",            "^FTSE",       "Index",       "Europe"),
+    ("DAX",                 "^GDAXI",      "Index",       "Europe"),
+    # ---- Equities ----
+    ("Nvidia",              "NVDA",        "Equity",      "US"),
+    ("Tesla",               "TSLA",        "Equity",      "US"),
+    ("Apple",               "AAPL",        "Equity",      "US"),
+    ("Microsoft",           "MSFT",        "Equity",      "US"),
+    ("Amazon",              "AMZN",        "Equity",      "US"),
+    ("Tencent (HK)",        "0700.HK",     "Equity",      "Asia"),
+    ("Samsung (KR)",        "005930.KS",   "Equity",      "Asia"),
+    # ---- Energy ----
+    ("Brent Crude",         "BZ=F",        "Energy",      "Global"),
+    ("WTI Crude",           "CL=F",        "Energy",      "Global"),
+    ("Natural Gas",         "NG=F",        "Energy",      "Global"),
+    # ---- Metals ----
+    ("Gold",                "GC=F",        "Metals",      "Global"),
+    ("Silver",              "SI=F",        "Metals",      "Global"),
+    ("Copper",              "HG=F",        "Metals",      "Global"),
+    # ---- Crypto ----
+    ("Bitcoin",             "BTC-USD",     "Crypto",      "Global"),
+    ("Ethereum",            "ETH-USD",     "Crypto",      "Global"),
+    # ---- Bonds (ETFs) ----
+    ("20Y+ Treasuries",     "TLT",         "Bonds",       "US"),
+    ("7-10Y Treasuries",    "IEF",         "Bonds",       "US"),
+    ("High-Yield Corp",     "HYG",         "Bonds",       "US"),
+    ("IG Corp Bonds",       "LQD",         "Bonds",       "US"),
+    # ---- FX ----
+    ("US Dollar Index",     "DX-Y.NYB",    "FX",          "Global"),
+    ("EUR / USD",           "EURUSD=X",    "FX",          "Global"),
+    ("USD / JPY",           "USDJPY=X",    "FX",          "Global"),
+    # ---- Volatility ----
+    ("VIX",                 "^VIX",        "Volatility",  "US"),
 ]
 
-# How much price history to pull for the charts.
-HISTORY_PERIOD   = "6mo"
+# Order the filter buttons appear in on the Overall Market tab.
+ASSET_CLASS_ORDER = ["Index", "Equity", "Energy", "Metals", "Crypto", "Bonds", "FX", "Volatility"]
+
+# Pull 1 year of daily history so the chart's 1M/3M/6M/1Y buttons all work.
+HISTORY_PERIOD   = "1y"
 HISTORY_INTERVAL = "1d"
 
-# How many headlines to keep per ticker / per macro feed.
 NEWS_PER_TICKER  = 6
 NEWS_PER_FEED    = 8
 
 # ---------------------------------------------------------------------------
-# 2. NEWS FEEDS  (plain RSS — no API keys needed)
-#    Any feed that fails to load is skipped silently; the rest still work.
+# 2. MACRO INDICATORS — FRED public CSV (no API key needed)
+#    transform: "yoy"  -> year-over-year % change (for price-index series)
+#               "level"-> use the latest value as-is
+# ---------------------------------------------------------------------------
+FRED_SERIES = {
+    "US Inflation (CPI, YoY)": ("CPIAUCSL", "yoy"),
+    "Core CPI (YoY)":          ("CPILFESL", "yoy"),
+    "Unemployment Rate":       ("UNRATE",   "level"),
+    "Fed Funds Rate":          ("FEDFUNDS", "level"),
+}
+
+# ---------------------------------------------------------------------------
+# 3. TREASURY YIELDS — via yfinance (CBOE yield indices, in %)
+# ---------------------------------------------------------------------------
+YIELD_INDICES = {
+    "3M Treasury Yield":  "^IRX",
+    "10Y Treasury Yield": "^TNX",
+    "30Y Treasury Yield": "^TYX",
+}
+
+# ---------------------------------------------------------------------------
+# 4. NEWS FEEDS  (plain RSS — no API keys). Failing feeds are skipped silently.
 # ---------------------------------------------------------------------------
 GLOBAL_FEEDS = {
     "CNBC Markets":      "https://www.cnbc.com/id/20910258/device/rss/rss.html",
