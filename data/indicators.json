@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T22:20:24.376436+00:00",
+  "updated": "2026-08-24T09:36:42.717714+00:00",
   "indicators": [
     {
       "name": "3M Treasury Yield",
@@ -26,7 +26,7 @@
       "name": "Yield Curve (10Y-3M)",
       "value": 1.03,
       "unit": "pp",
-      "asof": "2026-08-21",
+      "asof": "2026-08-24",
       "source": "derived"
     }
   ]
