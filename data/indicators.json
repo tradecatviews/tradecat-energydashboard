@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-07T01:12:08.322429+00:00",
+  "updated": "2026-10-07T15:54:56.643404+00:00",
   "indicators": [
     {
       "name": "3M Treasury Yield",
       "value": 4.04,
       "unit": "%",
-      "asof": "2026-10-06",
+      "asof": "2026-10-07",
       "source": "CBOE"
     },
     {
       "name": "10Y Treasury Yield",
-      "value": 5.27,
+      "value": 5.31,
       "unit": "%",
-      "asof": "2026-10-06",
+      "asof": "2026-10-07",
       "source": "CBOE"
     },
     {
       "name": "30Y Treasury Yield",
-      "value": 5.64,
+      "value": 5.69,
       "unit": "%",
-      "asof": "2026-10-06",
+      "asof": "2026-10-07",
       "source": "CBOE"
     },
     {
       "name": "Yield Curve (10Y-3M)",
-      "value": 1.23,
+      "value": 1.27,
       "unit": "pp",
       "asof": "2026-10-07",
       "source": "derived"
