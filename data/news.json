@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-16T19:03:46.207383+00:00",
+  "updated": "2026-11-17T04:18:06.896634+00:00",
   "macro": {
     "global": [
+      {
+        "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+        "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+        "publisher": "Economy",
+        "time": "Tue, 17 Nov 2026 00:42:33 GMT",
+        "source": "CNBC Markets"
+      },
       {
         "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
         "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
@@ -52,293 +59,454 @@
         "source": "CNBC Markets"
       },
       {
-        "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-        "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
-        "publisher": "Economy",
-        "time": "Tue, 10 Nov 2026 23:53:58 GMT",
-        "source": "CNBC Markets"
+        "title": "I\u2019m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+        "link": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+        "publisher": "MarketWatch.com - Top Stories",
+        "time": "Tue, 17 Nov 2026 02:30:00 GMT",
+        "source": "MarketWatch Top"
+      },
+      {
+        "title": "United Airlines resolves system outage that delayed flights Monday",
+        "link": "https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories",
+        "publisher": "MarketWatch.com - Top Stories",
+        "time": "Mon, 16 Nov 2026 23:42:00 GMT",
+        "source": "MarketWatch Top"
+      },
+      {
+        "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
+        "link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
+        "publisher": "MarketWatch.com - Top Stories",
+        "time": "Mon, 16 Nov 2026 23:28:00 GMT",
+        "source": "MarketWatch Top"
+      },
+      {
+        "title": "Do Amazon\u2019s Black Friday deals really save you money? A new report casts doubt.",
+        "link": "https://www.marketwatch.com/story/do-amazons-black-friday-deals-really-save-you-money-03859cf3?mod=mw_rss_topstories",
+        "publisher": "MarketWatch.com - Top Stories",
+        "time": "Mon, 16 Nov 2026 23:04:00 GMT",
+        "source": "MarketWatch Top"
+      },
+      {
+        "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+        "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+        "publisher": "MarketWatch.com - Top Stories",
+        "time": "Mon, 16 Nov 2026 23:00:00 GMT",
+        "source": "MarketWatch Top"
+      },
+      {
+        "title": "U.S. dollar\u2019s AI-driven breakout could become a stock-market wrecking ball",
+        "link": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
+        "publisher": "MarketWatch.com - Top Stories",
+        "time": "Mon, 16 Nov 2026 22:46:00 GMT",
+        "source": "MarketWatch Top"
+      },
+      {
+        "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
+        "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
+        "publisher": "MarketWatch.com - Top Stories",
+        "time": "Mon, 16 Nov 2026 22:33:00 GMT",
+        "source": "MarketWatch Top"
+      },
+      {
+        "title": "\u2018He calls my plans a fantasy\u2019: My husband says we can\u2019t afford a $200,000-a-year retirement. Is he being cheap?",
+        "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+        "publisher": "MarketWatch.com - Top Stories",
+        "time": "Mon, 16 Nov 2026 22:30:00 GMT",
+        "source": "MarketWatch Top"
+      },
+      {
+        "title": "Jobless claims fall to lowest level since mid-May",
+        "link": "https://www.marketwatch.com/story/jobless-claims-fall-to-lowest-level-since-mid-may-bda58e3b?mod=mw_rss_marketpulse",
+        "publisher": "MarketWatch.com - MarketPulse",
+        "time": "Thu, 03 Jul 2025 12:36:00 GMT",
+        "source": "MarketWatch Mkts"
+      },
+      {
+        "title": "Jobless claims stay low in latest week",
+        "link": "https://www.marketwatch.com/story/jobless-claims-stay-low-in-latest-week-27b4b50b?mod=mw_rss_marketpulse",
+        "publisher": "MarketWatch.com - MarketPulse",
+        "time": "Thu, 13 Feb 2025 13:33:00 GMT",
+        "source": "MarketWatch Mkts"
+      },
+      {
+        "title": "Consumer credit growth soars in December",
+        "link": "https://www.marketwatch.com/story/consumer-credit-growth-soars-in-december-d405d18e?mod=mw_rss_marketpulse",
+        "publisher": "MarketWatch.com - MarketPulse",
+        "time": "Fri, 07 Feb 2025 20:26:00 GMT",
+        "source": "MarketWatch Mkts"
+      },
+      {
+        "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+        "link": "https://www.marketwatch.com/story/u-s-productivity-slows-down-in-fourth-quarter-while-unit-labor-costs-accelerate-3c2b9092?mod=mw_rss_marketpulse",
+        "publisher": "MarketWatch.com - MarketPulse",
+        "time": "Thu, 06 Feb 2025 13:34:00 GMT",
+        "source": "MarketWatch Mkts"
+      },
+      {
+        "title": "Beyond to buy rights to Buy Buy Baby brand and reunite it with Bed Bath & Beyond",
+        "link": "https://www.marketwatch.com/story/beyond-to-buy-rights-to-buy-buy-baby-brand-and-reunite-it-with-bed-bath-beyond-4383c6be?mod=mw_rss_marketpulse",
+        "publisher": "MarketWatch.com - MarketPulse",
+        "time": "Mon, 03 Feb 2025 13:46:00 GMT",
+        "source": "MarketWatch Mkts"
+      },
+      {
+        "title": "Trump asks Supreme Court to pause TikTok ban",
+        "link": "https://www.marketwatch.com/story/trump-asks-supreme-court-to-pause-tiktok-ban-2b724ae6?mod=mw_rss_marketpulse",
+        "publisher": "MarketWatch.com - MarketPulse",
+        "time": "Sat, 28 Dec 2024 00:32:00 GMT",
+        "source": "MarketWatch Mkts"
+      },
+      {
+        "title": "Amazon says it had best-ever Thanksgiving Holiday week with record sales and number of items sold",
+        "link": "https://www.marketwatch.com/story/amazon-says-it-had-best-ever-thanksgiving-holiday-week-with-record-sales-and-number-of-items-sold-786e0143?mod=mw_rss_marketpulse",
+        "publisher": "MarketWatch.com - MarketPulse",
+        "time": "Tue, 03 Dec 2024 14:05:00 GMT",
+        "source": "MarketWatch Mkts"
+      },
+      {
+        "title": "U.S. stock futures and bond yields drop on reports Putin has updated nuclear doctrine",
+        "link": "https://www.marketwatch.com/story/u-s-stock-futures-and-bond-yields-drop-on-reports-putin-has-updated-nuclear-doctrine-4b9792c4?mod=mw_rss_marketpulse",
+        "publisher": "MarketWatch.com - MarketPulse",
+        "time": "Tue, 19 Nov 2024 08:55:00 GMT",
+        "source": "MarketWatch Mkts"
       }
     ],
     "asia": [
       {
-        "title": "California sues\u00a0OpenAI over AI models\u2019 cyberattacks on Hugging Face, other companies",
-        "link": "https://www.channelnewsasia.com/business/california-sues-openai-over-ai-models-cyberattacks-hugging-face-other-companies-6556571",
+        "title": "Nvidia earnings to test AI boom after Huang's exit",
+        "link": "https://www.channelnewsasia.com/business/nvidia-earnings-test-ai-boom-after-huangs-exit-6557521",
         "publisher": "Latest News",
-        "time": "Tue, 17 Nov 2026 02:47:49 +0800",
+        "time": "Tue, 17 Nov 2026 10:44:35 +0800",
         "source": "CNA Business"
       },
       {
-        "title": "Fed's Warsh says emerging technologies will have 'significant impact,' but risks need to be watched",
-        "link": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-will-have-significant-impact-risks-need-be-watched-6556426",
+        "title": "Singapore\u2019s non-oil exports surge 79.8% in October, driven by pharmaceuticals and ship structures",
+        "link": "https://www.channelnewsasia.com/singapore/nodx-october-electronics-pharmaceuticals-us-china-6557476",
         "publisher": "Latest News",
-        "time": "Tue, 17 Nov 2026 01:02:47 +0800",
+        "time": "Tue, 17 Nov 2026 10:35:34 +0800",
         "source": "CNA Business"
       },
       {
-        "title": "Trump Media faces possible $1 billion debt repayment as stock nears record lows",
-        "link": "https://www.channelnewsasia.com/business/trump-media-faces-possible-1-billion-debt-repayment-stock-nears-record-lows-6556401",
+        "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+        "link": "https://www.channelnewsasia.com/business/us-dollar-hits-19-month-peak-fed-hike-bets-aussie-dips-6557406",
         "publisher": "Latest News",
-        "time": "Tue, 17 Nov 2026 00:46:49 +0800",
+        "time": "Tue, 17 Nov 2026 09:41:58 +0800",
         "source": "CNA Business"
       },
       {
-        "title": "US hyperscale data centers emit as much as Denmark, report says",
-        "link": "https://www.channelnewsasia.com/business/us-hyperscale-data-centers-emit-much-denmark-report-says-6556336",
+        "title": "Oil slips on supply surplus outlook despite Gulf tensions",
+        "link": "https://www.channelnewsasia.com/business/oil-slips-supply-surplus-outlook-despite-gulf-tensions-6557401",
         "publisher": "Latest News",
-        "time": "Tue, 17 Nov 2026 00:03:55 +0800",
+        "time": "Tue, 17 Nov 2026 09:37:15 +0800",
         "source": "CNA Business"
       },
       {
-        "title": "Interest in Trump\u2019s meme coin dinner fades as $TRUMP sinks to record lows",
-        "link": "https://www.channelnewsasia.com/business/interest-in-trumps-meme-coin-dinner-fades-trump-sinks-record-lows-6556211",
+        "title": "Japan to postpone launch of new floating-rate government bonds, sources say",
+        "link": "https://www.channelnewsasia.com/business/japan-postpone-launch-new-floating-rate-government-bonds-sources-say-6557391",
         "publisher": "Latest News",
-        "time": "Mon, 16 Nov 2026 23:17:04 +0800",
+        "time": "Tue, 17 Nov 2026 09:33:25 +0800",
         "source": "CNA Business"
       },
       {
-        "title": "Silicon Valley leaders back call for Jensen Huang's return to Nvidia",
-        "link": "https://www.channelnewsasia.com/business/silicon-valley-leaders-back-call-jensen-huangs-return-nvidia-6555861",
+        "title": "United Airlines says technology outage that delayed departures has been resolved",
+        "link": "https://www.channelnewsasia.com/business/united-airlines-says-technology-outage-delayed-departures-has-been-resolved-6556946",
         "publisher": "Latest News",
-        "time": "Mon, 16 Nov 2026 21:46:13 +0800",
+        "time": "Tue, 17 Nov 2026 07:00:58 +0800",
         "source": "CNA Business"
       },
       {
-        "title": "Senator accuses US Commerce Department of failing to stem flow of AI chips to China",
-        "link": "https://www.channelnewsasia.com/business/senator-accuses-us-commerce-department-failing-stem-flow-ai-chips-china-6555286",
+        "title": "JPMorgan says software bug slows its transactions",
+        "link": "https://www.channelnewsasia.com/business/jpmorgan-says-software-bug-slows-its-transactions-6556951",
         "publisher": "Latest News",
-        "time": "Mon, 16 Nov 2026 20:57:17 +0800",
+        "time": "Tue, 17 Nov 2026 07:00:16 +0800",
         "source": "CNA Business"
       },
       {
-        "title": "Nvidia set to deliver first life-after-Huang briefing",
-        "link": "https://www.channelnewsasia.com/business/nvidia-set-deliver-first-life-after-huang-briefing-6555546",
+        "title": "California consumer watchdog chief says AI companies that violate state rules will be taken to court",
+        "link": "https://www.channelnewsasia.com/business/california-consumer-watchdog-chief-says-ai-companies-violate-state-rules-will-be-taken-court-6556931",
         "publisher": "Latest News",
-        "time": "Mon, 16 Nov 2026 19:54:25 +0800",
+        "time": "Tue, 17 Nov 2026 06:57:07 +0800",
         "source": "CNA Business"
       },
       {
-        "title": "Trump Media faces possible US$1 billion debt repayment as stock nears record lows",
+        "title": "China stocks not yet at bottom as recovery hurdles abound, top fund firm says",
+        "link": "https://www.scmp.com/business/markets/article/3374674/china-stocks-not-yet-bottom-recovery-hurdles-abound-top-fund-firm-says",
+        "publisher": "Business - South China Morning Post",
+        "time": "Tue, 17 Nov 2026 04:00:07 +0000",
+        "source": "SCMP Business"
+      },
+      {
+        "title": "Luen Thai\u2019s third-generation executive continues family\u2019s hospitality legacy",
+        "link": "https://www.scmp.com/native/business/topics/building-legacy-together/article/3374181/luen-thais-third-generation-executive-continues-familys-hospitality-legacy",
+        "publisher": "Business - South China Morning Post",
+        "time": "Tue, 17 Nov 2026 04:00:06 +0000",
+        "source": "SCMP Business"
+      },
+      {
+        "title": "As fears over Western finance grow, could Hong Kong and Singapore win the world\u2019s gold?",
+        "link": "https://www.scmp.com/business/commodities/article/3374589/fears-over-western-finance-grow-could-hong-kong-and-singapore-win-worlds-gold",
+        "publisher": "Business - South China Morning Post",
+        "time": "Tue, 17 Nov 2026 02:00:12 +0000",
+        "source": "SCMP Business"
+      },
+      {
+        "title": "HK4FAMILIES-The Art of Legacy",
+        "link": "https://www.scmp.com/presented/business/topics/redefining-hong-kong-next-generation-wealth/article/3374112/hk4families-art-legacy",
+        "publisher": "Business - South China Morning Post",
+        "time": "Tue, 17 Nov 2026 01:00:08 +0000",
+        "source": "SCMP Business"
+      },
+      {
+        "title": "Ping An Insurance to relocate into new Hong Kong office above West Kowloon rail hub",
+        "link": "https://www.scmp.com/business/companies/article/3374528/ping-insurance-relocate-new-hong-kong-office-above-west-kowloon-rail-hub",
+        "publisher": "Business - South China Morning Post",
+        "time": "Tue, 17 Nov 2026 00:00:09 +0000",
+        "source": "SCMP Business"
+      },
+      {
+        "title": "Hong Kong leapfrogs Dubai as No 1 super-luxury housing market \u2013 but can it last?",
+        "link": "https://www.scmp.com/business/markets/article/3374633/hong-kong-leapfrogs-dubai-no-1-super-luxury-housing-market-can-it-last",
+        "publisher": "Business - South China Morning Post",
+        "time": "Mon, 16 Nov 2026 23:00:11 +0000",
+        "source": "SCMP Business"
+      },
+      {
+        "title": "JPMorgan Chase tech glitch ripples across US banks",
+        "link": "https://www.scmp.com/business/banking-finance/article/3374651/customers-major-us-banks-report-difficulty-some-online-services",
+        "publisher": "Business - South China Morning Post",
+        "time": "Mon, 16 Nov 2026 20:23:11 +0000",
+        "source": "SCMP Business"
+      },
+      {
+        "title": "Trump Media faces possible US$1 billion debt repayment as stock nears lows",
         "link": "https://www.scmp.com/news/world/united-states-canada/article/3374645/trump-media-faces-possible-us1-billion-debt-repayment-stock-nears-record-lows",
         "publisher": "Business - South China Morning Post",
         "time": "Mon, 16 Nov 2026 17:09:46 +0000",
         "source": "SCMP Business"
       },
       {
-        "title": "Hong Kong to review IPO book-building process after string of fraud cases: SFC",
-        "link": "https://www.scmp.com/business/banking-finance/article/3374618/hong-kong-review-ipo-book-building-process-after-string-fraud-cases-sfc",
-        "publisher": "Business - South China Morning Post",
-        "time": "Mon, 16 Nov 2026 12:05:48 +0000",
-        "source": "SCMP Business"
-      },
-      {
-        "title": "Apec CEOs seek common AI safeguards as adoption accelerates: Deloitte",
-        "link": "https://www.scmp.com/tech/big-tech/article/3374612/apec-ceos-seek-common-ai-safeguards-adoption-accelerates-deloitte",
-        "publisher": "Business - South China Morning Post",
-        "time": "Mon, 16 Nov 2026 12:00:10 +0000",
-        "source": "SCMP Business"
-      },
-      {
-        "title": "Yuan overtakes US dollar in Hong Kong bond listings as Beijing pushes currency\u2019s global role",
-        "link": "https://www.scmp.com/business/banking-finance/article/3374585/yuan-overtakes-us-dollar-hong-kong-bond-listings-beijing-pushes-currencys-global-role",
-        "publisher": "Business - South China Morning Post",
-        "time": "Mon, 16 Nov 2026 11:00:09 +0000",
-        "source": "SCMP Business"
-      },
-      {
-        "title": "Baidu quarterly profit plunges 46% as ad slump overshadows AI growth",
-        "link": "https://www.scmp.com/tech/big-tech/article/3374604/baidu-quarterly-profit-plunges-46-ad-slump-overshadows-ai-growth",
-        "publisher": "Business - South China Morning Post",
-        "time": "Mon, 16 Nov 2026 10:10:31 +0000",
-        "source": "SCMP Business"
-      },
-      {
-        "title": "Hong Kong insurers expanding into wealth management as policy sets record",
-        "link": "https://www.scmp.com/business/article/3374592/hong-kong-insurers-expanding-wealth-management-policy-sets-record",
-        "publisher": "Business - South China Morning Post",
-        "time": "Mon, 16 Nov 2026 10:00:11 +0000",
-        "source": "SCMP Business"
-      },
-      {
-        "title": "Gold set to snap blistering run of 3-year gains as Fed rate increase looms",
-        "link": "https://www.scmp.com/business/commodities/article/3374547/gold-set-snap-blistering-run-three-year-gains-fed-rate-increase-looms",
-        "publisher": "Business - South China Morning Post",
-        "time": "Mon, 16 Nov 2026 08:00:07 +0000",
-        "source": "SCMP Business"
-      },
-      {
-        "title": "Labubu mania cools",
-        "link": "https://www.scmp.com/plus/business/china-business/article/3374561/labubu-mania-cools",
-        "publisher": "Business - South China Morning Post",
-        "time": "Mon, 16 Nov 2026 06:27:34 +0000",
-        "source": "SCMP Business"
-      },
-      {
-        "title": "Japan's Pigeon to buy US baby goods maker Eleeo in move beyond China",
-        "link": "https://asia.nikkei.com/business/business-deals/japan-s-pigeon-to-buy-us-baby-goods-maker-eleeo-in-move-beyond-china",
+        "title": "German and Chinese hospital sectors extend ties and partnerships",
+        "link": "https://asia.nikkei.com/business/health-care/german-and-chinese-hospital-sectors-extend-ties-and-partnerships",
         "publisher": "Nikkei Asia",
         "time": "",
         "source": "Nikkei Asia"
       },
       {
-        "title": "Mazda to test carbon-capture car on public roads in 2028",
-        "link": "https://asia.nikkei.com/business/automobiles/mazda-to-test-carbon-capture-car-on-public-roads-in-2028",
+        "title": "APEC live: APEC CEO Summit kicks off ahead of Xi, Trump, Putin gathering",
+        "link": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-apec-ceo-summit-kicks-off-ahead-of-xi-trump-putin-gathering",
         "publisher": "Nikkei Asia",
         "time": "",
         "source": "Nikkei Asia"
       },
       {
-        "title": "US AI voice startup ElevenLabs to buy Japanese-focused peer Kotoba",
-        "link": "https://asia.nikkei.com/business/business-deals/us-ai-voice-startup-elevenlabs-to-buy-japanese-focused-peer-kotoba",
+        "title": "Japan's Mori Trust to step up overseas property push after New York deals",
+        "link": "https://asia.nikkei.com/editor-s-picks/interview/japan-s-mori-trust-to-step-up-overseas-property-push-after-new-york-deals",
         "publisher": "Nikkei Asia",
         "time": "",
         "source": "Nikkei Asia"
       },
       {
-        "title": "Japan and ADB ink agreement to support nuclear power in Asia",
-        "link": "https://asia.nikkei.com/business/energy/japan-and-adb-ink-agreement-to-support-nuclear-power-in-asia",
+        "title": "US moves to curb China's remote access to AI chips after Nvidia scandal",
+        "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-moves-to-curb-china-s-remote-access-to-ai-chips-after-nvidia-scandal",
         "publisher": "Nikkei Asia",
         "time": "",
         "source": "Nikkei Asia"
       },
       {
-        "title": "Japan eyes two-pronged approach to cover tax cut, growth investments",
-        "link": "https://asia.nikkei.com/politics/japan-eyes-two-pronged-approach-to-cover-tax-cut-growth-investments",
+        "title": "Indian stocks stage rapid rebound as AI hedge accelerates",
+        "link": "https://asia.nikkei.com/business/markets/indian-stocks-stage-rapid-rebound-as-ai-hedge-accelerates",
         "publisher": "Nikkei Asia",
         "time": "",
         "source": "Nikkei Asia"
       },
       {
-        "title": "Japan's wagyu prices hit record high on ranch closures, overseas demand",
-        "link": "https://asia.nikkei.com/business/food-beverage/japan-s-wagyu-prices-hit-record-high-on-ranch-closures-overseas-demand",
+        "title": "Taiwan elections enter home stretch as parties fight for heartlands",
+        "link": "https://asia.nikkei.com/politics/taiwan-elections-enter-home-stretch-as-parties-fight-for-heartlands",
         "publisher": "Nikkei Asia",
         "time": "",
         "source": "Nikkei Asia"
       },
       {
-        "title": "Japan's Taisei to launch $150mn fund with Silicon Valley venture capital firm",
-        "link": "https://asia.nikkei.com/business/startups/japan-s-taisei-to-launch-150mn-fund-with-silicon-valley-venture-capital-firm",
+        "title": "SoftBank, Rakuten push Japan retail bond issuance to record high",
+        "link": "https://asia.nikkei.com/business/markets/bonds/softbank-rakuten-push-japan-retail-bond-issuance-to-record-high",
         "publisher": "Nikkei Asia",
         "time": "",
         "source": "Nikkei Asia"
       },
       {
-        "title": "US toy sellers pin tariff hopes on third Trump-Xi meeting this year",
-        "link": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-toy-sellers-pin-tariff-hopes-on-third-trump-xi-meeting-this-year",
+        "title": "Fake gold jewelry made from industrial metal tricks Japan shops",
+        "link": "https://asia.nikkei.com/spotlight/society/crime/fake-gold-jewelry-made-from-industrial-metal-tricks-japan-shops",
         "publisher": "Nikkei Asia",
         "time": "",
         "source": "Nikkei Asia"
       },
       {
-        "title": "Who is Leo KoGuan, the Singapore-based billionaire backing Nvidia\u2019s Jensen Huang?",
-        "link": "https://www.straitstimes.com/business/who-is-leo-koguan-the-singapore-based-billionaire-backing-nvidias-jensen-huang",
+        "title": "Anthropic's IPO: How do you price the future of AI?",
+        "link": "https://www.straitstimes.com/business/anthropics-ipo-how-do-you-price-the-future-of-ai",
         "publisher": "The Straits Times World News",
-        "time": "Mon, 16 Nov 2026 20:44:00 +0800",
+        "time": "Tue, 17 Nov 2026 12:05:00 +0800",
         "source": "Straits Times Biz"
       },
       {
-        "title": "SIA logs 3.5% rise in October passenger traffic; sees \u2018healthy\u2019 demand for semiconductor shipments",
-        "link": "https://www.straitstimes.com/business/sia-logs-3-5-rise-in-october-passenger-traffic-sees-healthy-demand-for-semiconductor-shipments",
+        "title": "S\u2019pore has $7 trillion in assets under management as AI reshapes wealth management: Alvin Tan",
+        "link": "https://www.straitstimes.com/business/spore-has-7-trillion-in-assets-under-management-as-ai-reshapes-wealth-management-alvin-tan",
         "publisher": "The Straits Times World News",
-        "time": "Mon, 16 Nov 2026 19:21:00 +0800",
+        "time": "Tue, 17 Nov 2026 12:00:00 +0800",
         "source": "Straits Times Biz"
       },
       {
-        "title": "Thai central bank pushes back against proposed legal changes",
-        "link": "https://www.straitstimes.com/business/thai-central-bank-pushes-back-against-proposed-legal-changes",
+        "title": "ASEAN social security members meet in S\u2019pore to discuss ageing, digitalisation and new work trends",
+        "link": "https://www.straitstimes.com/business/asean-social-security-members-meet-in-spore-to-discuss-ageing-digitalisation-and-new-work-trends",
         "publisher": "The Straits Times World News",
-        "time": "Mon, 16 Nov 2026 18:32:00 +0800",
+        "time": "Tue, 17 Nov 2026 10:25:00 +0800",
         "source": "Straits Times Biz"
       },
       {
-        "title": "ASEAN to remain supply chain priority for US firms even as Trump\u2019s tariffs face pushback",
-        "link": "https://www.straitstimes.com/business/economy/asean-to-remain-supply-chain-priority-for-us-firms-even-as-trumps-tariffs-face-pushback",
+        "title": "Jensen Huang\u2019s daughter, a close ally, remains in senior role at Nvidia",
+        "link": "https://www.straitstimes.com/business/jensen-huangs-daughter-a-close-ally-remains-in-senior-role-at-nvidia",
         "publisher": "The Straits Times World News",
-        "time": "Mon, 16 Nov 2026 16:45:00 +0800",
+        "time": "Tue, 17 Nov 2026 10:20:00 +0800",
         "source": "Straits Times Biz"
       },
       {
-        "title": "Indonesian rupiah falls to record low as Fed bets boost dollar",
-        "link": "https://www.straitstimes.com/business/indonesian-rupiah-falls-to-record-low-as-fed-bets-boost-dollar",
+        "title": "Asia shares stumble on tech weakness ahead of Nvidia earnings",
+        "link": "https://www.straitstimes.com/business/asia-shares-stumble-on-tech-weakness-ahead-of-nvidia-earnings",
         "publisher": "The Straits Times World News",
-        "time": "Mon, 16 Nov 2026 16:28:00 +0800",
+        "time": "Tue, 17 Nov 2026 09:58:00 +0800",
         "source": "Straits Times Biz"
       },
       {
-        "title": "CNMC Goldmine shares plunge as gold falls below US$4,000",
-        "link": "https://www.straitstimes.com/business/companies-markets/cnmc-goldmine-shares-plunge-as-gold-falls-below-us4000",
+        "title": "Singapore\u2019s key exports surge 79.8% in October, driven by strong non-electronics shipments",
+        "link": "https://www.straitstimes.com/business/singapores-key-exports-surge-79-8-in-october-driven-by-non-electronics",
         "publisher": "The Straits Times World News",
-        "time": "Mon, 16 Nov 2026 14:00:41 +0800",
+        "time": "Tue, 17 Nov 2026 08:30:22 +0800",
         "source": "Straits Times Biz"
       },
       {
-        "title": "Goldman Sachs predicts \u2018sizeable surplus\u2019 for oil market in 2027",
-        "link": "https://www.straitstimes.com/business/goldman-sachs-predicts-sizeable-surplus-for-oil-market-in-2027",
+        "title": "Microsoft bug undetected since July triggered worldwide outage",
+        "link": "https://www.straitstimes.com/business/microsoft-bug-undetected-since-july-triggered-worldwide-outage",
         "publisher": "The Straits Times World News",
-        "time": "Mon, 16 Nov 2026 13:18:00 +0800",
+        "time": "Tue, 17 Nov 2026 06:11:14 +0800",
         "source": "Straits Times Biz"
       },
       {
-        "title": "DBS, JPMorgan launch US-Singapore tokenised deposit service for institutions",
-        "link": "https://www.straitstimes.com/business/dbs-jpmorgan-launch-us-singapore-tokenised-deposit-service-for-institutions",
+        "title": "US stocks close sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+        "link": "https://www.straitstimes.com/business/companies-markets/us-stocks-wall-street-ends-sharply-lower-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo",
         "publisher": "The Straits Times World News",
-        "time": "Mon, 16 Nov 2026 12:34:00 +0800",
+        "time": "Tue, 17 Nov 2026 05:44:26 +0800",
         "source": "Straits Times Biz"
       },
       {
-        "title": "Interest in Trump's meme coin dinner fades as $TRUMP sinks to record lows",
-        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/interest-in-trumps-meme-coin-dinner-fades-as-trump-sinks-to-record-lows/articleshow/135899741.cms",
+        "title": "Traders pour cash into BlackRock\u2019s India ETF as AI rout deepens",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/traders-pour-cash-into-blackrocks-india-etf-as-ai-rout-deepens/articleshow/135909707.cms",
         "publisher": "Markets-Economic Times",
-        "time": "Mon, 16 Nov 2026 23:57:28 +0530",
+        "time": "Tue, 17 Nov 2026 09:36:28 +0530",
         "source": "EconomicTimes Mkt"
       },
       {
-        "title": "Trump Media faces possible $1 billion debt repayment as stock nears record lows",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/trump-media-faces-possible-1-billion-debt-repayment-as-stock-nears-record-lows/articleshow/135898089.cms",
+        "title": "Blue Star among 4 stocks closing above VWAP",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/blue-star-among-4-stocks-closing-above-vwap/slideshow/135909667.cms",
         "publisher": "Markets-Economic Times",
-        "time": "Mon, 16 Nov 2026 23:14:02 +0530",
+        "time": "Tue, 17 Nov 2026 09:26:28 +0530",
         "source": "EconomicTimes Mkt"
       },
       {
-        "title": "Nvidia earnings spotlight shifts to leadership, AI financing after Huang exit",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nvidia-set-to-deliver-first-life-after-huang-briefing/articleshow/135896160.cms",
+        "title": "ITC among 6 stocks showing White Marubozu pattern",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/itc-among-6-stocks-showing-white-marubozu-pattern/slideshow/135909511.cms",
         "publisher": "Markets-Economic Times",
-        "time": "Mon, 16 Nov 2026 22:13:54 +0530",
+        "time": "Tue, 17 Nov 2026 09:20:24 +0530",
         "source": "EconomicTimes Mkt"
       },
       {
-        "title": "Barclays lowers 2027 year-end target for S&amp;P 500 index to 8,700",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/barclays-lowers-2027-year-end-target-for-sp-500-index-to-8700/articleshow/135894874.cms",
+        "title": "Yes Bank among 4 stocks showing RSI Trending Up",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-among-4-stocks-showing-rsi-trending-up/slideshow/135909214.cms",
         "publisher": "Markets-Economic Times",
-        "time": "Mon, 16 Nov 2026 21:20:17 +0530",
+        "time": "Tue, 17 Nov 2026 09:10:39 +0530",
         "source": "EconomicTimes Mkt"
       },
       {
-        "title": "US stocks: Summit shares drop after US FDA declines to approve lung cancer drug",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-summit-shares-drop-after-us-fda-declines-to-approve-lung-cancer-drug/articleshow/135894815.cms",
+        "title": "Positive Breakout: 6 stocks close above their 200 DMAs",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-6-stocks-close-above-their-200-dmas/slideshow/135909082.cms",
         "publisher": "Markets-Economic Times",
-        "time": "Mon, 16 Nov 2026 21:18:04 +0530",
+        "time": "Tue, 17 Nov 2026 09:00:12 +0530",
         "source": "EconomicTimes Mkt"
       },
       {
-        "title": "US stocks: Nasdaq slides over 1% as AI selloff deepens ahead of Nvidia earnings",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nasdaq-falls-1-at-open-as-nvidia-woes-weigh-on-sentiment-ahead-of-earnings/articleshow/135894333.cms",
+        "title": "BPCL Share Price Live Updates: BPCL Breaks Above 100-Day Simple Moving Average",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bpcl-stock-price-live-updates-17-nov-2026/liveblog/135908920.cms",
         "publisher": "Markets-Economic Times",
-        "time": "Mon, 16 Nov 2026 21:04:11 +0530",
+        "time": "Tue, 17 Nov 2026 08:55:05 +0530",
         "source": "EconomicTimes Mkt"
       },
       {
-        "title": "Dalal Street becomes best-performing stock market in a month. Can it rally more?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/dalal-street-becomes-best-performing-stock-market-in-a-month-can-it-rally-more/videoshow/135891640.cms",
+        "title": "M&amp;M Share Price Live Updates: M&amp;M Shows Strong Market Performance",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/mm-share-price-today-live-17-nov-2026/liveblog/135908337.cms",
         "publisher": "Markets-Economic Times",
-        "time": "Mon, 16 Nov 2026 19:18:06 +0530",
+        "time": "Tue, 17 Nov 2026 08:25:57 +0530",
         "source": "EconomicTimes Mkt"
       },
       {
-        "title": "Dow crashes over 700 pts, Nasdaq tumbles 2% in run-up to Nvidia results, Anthropic debut: Stock Market Live Updates",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-meta-tesla-coreweave-nebius-nvidia-earnings-anthropic-ipo-treasury-yield-news-16th-november-2026/liveblog/135890877.cms",
+        "title": "Wipro Share Price Live Updates: Wipro's Stock Shows Weakness Below EMA",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/wipro-share-price-live-17-nov-2026/liveblog/135908143.cms",
         "publisher": "Markets-Economic Times",
-        "time": "Mon, 16 Nov 2026 18:44:29 +0530",
+        "time": "Tue, 17 Nov 2026 08:18:22 +0530",
         "source": "EconomicTimes Mkt"
+      },
+      {
+        "title": "Alibaba.com wins customer trust award in Korea",
+        "link": "https://www.koreatimes.co.kr/business/companies/20261117/alibabacom-wins-customer-trust-award-in-korea?utm_source=rss",
+        "publisher": "Korea Times News",
+        "time": "Tue, 17 Nov 2026 04:17:03 GMT",
+        "source": "Korea Times Biz"
+      },
+      {
+        "title": "CJ CheilJedang introduces biodegradable pellets for artificial sports turf",
+        "link": "https://www.koreatimes.co.kr/business/companies/20261117/cj-cheiljedang-introduces-biodegradable-pellets-for-artificial-sports-turf?utm_source=rss",
+        "publisher": "Korea Times News",
+        "time": "Tue, 17 Nov 2026 04:17:03 GMT",
+        "source": "Korea Times Biz"
+      },
+      {
+        "title": "Korea regains top spot in global OLED shipments in H1",
+        "link": "https://www.koreatimes.co.kr/business/companies/20261117/korea-regains-top-spot-in-global-oled-shipments-in-h1?utm_source=rss",
+        "publisher": "Korea Times News",
+        "time": "Tue, 17 Nov 2026 04:17:03 GMT",
+        "source": "Korea Times Biz"
+      },
+      {
+        "title": "LS Electric expands Vietnam plant to boost ASEAN market presence",
+        "link": "https://www.koreatimes.co.kr/business/companies/20261117/ls-electric-expands-vietnam-plant-to-boost-asean-market-presence?utm_source=rss",
+        "publisher": "Korea Times News",
+        "time": "Tue, 17 Nov 2026 04:17:03 GMT",
+        "source": "Korea Times Biz"
+      },
+      {
+        "title": "Upstage teams up with Canada's Cohere for sovereign AI solutions",
+        "link": "https://www.koreatimes.co.kr/business/companies/20261117/upstage-teams-up-with-canadas-cohere-for-sovereign-ai-solutions?utm_source=rss",
+        "publisher": "Korea Times News",
+        "time": "Tue, 17 Nov 2026 04:17:03 GMT",
+        "source": "Korea Times Biz"
+      },
+      {
+        "title": "Hyundai Motor's plant utilization rate falls in Jan.-Sept. period",
+        "link": "https://www.koreatimes.co.kr/business/20261117/hyundai-motors-plant-utilization-rate-falls-in-jan-sept-period?utm_source=rss",
+        "publisher": "Korea Times News",
+        "time": "Tue, 17 Nov 2026 04:17:03 GMT",
+        "source": "Korea Times Biz"
+      },
+      {
+        "title": "Samsung Electronics, SK hynix cash holdings surge amid AI-driven chip boom",
+        "link": "https://www.koreatimes.co.kr/business/20261117/samsung-electronics-sk-hynix-cash-holdings-surge-amid-ai-driven-chip-boom?utm_source=rss",
+        "publisher": "Korea Times News",
+        "time": "Tue, 17 Nov 2026 04:17:03 GMT",
+        "source": "Korea Times Biz"
+      },
+      {
+        "title": "As Google Maps improves in Korea, Naver, Kakao turn to ecosystems to defend turf",
+        "link": "https://www.koreatimes.co.kr/business/tech-science/20261117/as-google-maps-improves-in-korea-naver-kakao-turn-to-ecosystems-to-defend-turf?utm_source=rss",
+        "publisher": "Korea Times News",
+        "time": "Tue, 17 Nov 2026 04:17:03 GMT",
+        "source": "Korea Times Biz"
       }
     ]
   },
@@ -349,6 +517,12 @@
         "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110358769.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: SPY News",
         "time": "Mon, 16 Nov 2026 11:03:58 +0000"
+      },
+      {
+        "title": "NVIDIA After Jensen: What's Next for the AI Trade?",
+        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-jensen-whats-next-ai-213900593.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: SPY News",
+        "time": "Mon, 16 Nov 2026 21:39:00 +0000"
       },
       {
         "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Weakness in AI-Linked Stocks",
@@ -373,12 +547,6 @@
         "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-abbvie-abbv-110313792.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: SPY News",
         "time": "Mon, 16 Nov 2026 11:03:13 +0000"
-      },
-      {
-        "title": "ETFs Are Net Sellers of Accenture (ACN) on Nov. 12",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-accenture-acn-110237195.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: SPY News",
-        "time": "Mon, 16 Nov 2026 11:02:37 +0000"
       }
     ],
     "QQQ": [
@@ -421,40 +589,40 @@
     ],
     "^DJI": [
       {
-        "title": "Stock Market Midday, Nov. 16: Nasdaq Tumbles as Wall Street Braces for Nvidia Earnings and Bitcoin Slides",
-        "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-midday-nov-16-stocks-slide-as-tech-selling-intensifies-across-the-market/?.tsrc=rss",
+        "title": "Dow Jones Futures: AMD, Nvidia, Micron Lead AI Trade Lower With Nvidia Earnings On Deck",
+        "link": "https://finance.yahoo.com/m/d0a3411e-5f2b-302d-801a-a42b1d7ca5ea/dow-jones-futures%3A-amd%2C.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: ^DJI News",
-        "time": "Mon, 16 Nov 2026 17:45:02 +0000"
+        "time": "Tue, 17 Nov 2026 03:20:17 +0000"
       },
       {
-        "title": "Stock Market News for Nov 16, 2026",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-16-132700717.html?.tsrc=rss",
+        "title": "He Claimed Social Security at 67 Last Year, Then Watched the Dow Jump 1,104 Points in a Day and Decided His Portfolio Can Carry Him for Now. Suspending His Checks Until 70 Earns Him 8% a Year, Up to 16% More for Life",
+        "link": "https://247wallst.com/personal-finance/social-security/2026/11/16/he-claimed-social-security-at-67-last-year-then-watched-the-dow-jump-1104-points-in-a-day-and-decided-his-portfolio-can-carry-him-for-now-suspending-his-checks-until-70-earns-him-8-a-year-up-to-16/?.tsrc=rss",
         "publisher": "Yahoo! Finance: ^DJI News",
-        "time": "Mon, 16 Nov 2026 13:27:00 +0000"
+        "time": "Tue, 17 Nov 2026 00:37:20 +0000"
       },
       {
-        "title": "Dow Jones, Nasdaq, S&P 500 weekly preview: Nvidia earnings, Anthropic IPO on deck",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/dow-jones-nasdaq-p-500-130201428.html?.tsrc=rss",
+        "title": "Stocks Carry Weekly Gains Into a Wall of Chart Resistance as Volatility Cools",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-carry-weekly-gains-wall-002300085.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: ^DJI News",
-        "time": "Mon, 16 Nov 2026 13:02:01 +0000"
+        "time": "Tue, 17 Nov 2026 00:23:00 +0000"
       },
       {
-        "title": "Stock Market Today: Dow Dives As Trump Says This On Huang; Victoria's Secret Flashes Sell Signal (Live Coverage)",
-        "link": "https://finance.yahoo.com/m/befe3344-5a22-304e-a07d-6ff7ad87bf49/stock-market-today%3A-dow-dives.html?.tsrc=rss",
+        "title": "S&P 500, Dow, Nasdaq End Lower As Investors Hold Back Ahead Of Nvidia Earnings, Anthropic IPO This Week \u2014  NVDA, TSLA, ANT In Focus",
+        "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-as-investors-hold-back-ahead-of-nvidia-earnings-anthropic-ipo/cNbaf4PR9gk?.tsrc=rss",
         "publisher": "Yahoo! Finance: ^DJI News",
-        "time": "Mon, 16 Nov 2026 18:44:54 +0000"
+        "time": "Tue, 17 Nov 2026 00:09:28 +0000"
       },
       {
-        "title": "Update: Chipmakers Push US Equity Indexes Lower as Commerce Department Plans to Curb Access to Advanced AI Infrastructure",
-        "link": "https://finance.yahoo.com/technology/ai/articles/chipmakers-push-us-equity-indexes-180432243.html?.tsrc=rss",
+        "title": "Wall Street futures muted as Nvidia earnings loom amid AI jitters",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-muted-nvidia-010312790.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: ^DJI News",
-        "time": "Mon, 16 Nov 2026 18:04:32 +0000"
+        "time": "Tue, 17 Nov 2026 01:03:12 +0000"
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Weakness in AI-Linked Stocks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141346501.html?.tsrc=rss",
+        "title": "Stocks, Gold, and Asia Bleed $2.2 Trillion: Top 5 Factors That Triggered the Crash",
+        "link": "https://beincrypto.com/market-bloodbath-2-trillion-5-factors/?.tsrc=rss",
         "publisher": "Yahoo! Finance: ^DJI News",
-        "time": "Mon, 16 Nov 2026 14:13:46 +0000"
+        "time": "Mon, 16 Nov 2026 23:15:00 +0000"
       }
     ],
     "^RUT": [
@@ -497,6 +665,12 @@
     ],
     "^N225": [
       {
+        "title": "BC-Nikkei 225 Futures",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-nikkei-225-futures-233013092.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: ^N225 News",
+        "time": "Mon, 16 Nov 2026 23:30:13 +0000"
+      },
+      {
         "title": "SoftBank Group Stocks Fall 3.69% as AI Jitters Hit Its $64.6 Billion OpenAI Bet",
         "link": "https://finance.yahoo.com/technology/ai/articles/softbank-group-stocks-fall-3-181015417.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: ^N225 News",
@@ -507,12 +681,6 @@
         "link": "https://finance.yahoo.com/markets/world-indices/articles/nvidia-fallout-rattles-asian-stock-105906417.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: ^N225 News",
         "time": "Mon, 16 Nov 2026 10:59:06 +0000"
-      },
-      {
-        "title": "BC-Nikkei 225 Futures",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/bc-nikkei-225-futures-210014410.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: ^N225 News",
-        "time": "Sun, 15 Nov 2026 21:00:14 +0000"
       },
       {
         "title": "If Japan's Stock Market Rally Returns, These 3 ETFs Could Benefit",
@@ -534,6 +702,12 @@
       }
     ],
     "^HSI": [
+      {
+        "title": "Baidu shares hit over five-year low as ad slump overshadows AI growth",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/baidu-shares-hit-over-five-025601329.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: ^HSI News",
+        "time": "Tue, 17 Nov 2026 02:56:01 +0000"
+      },
       {
         "title": "New World shares plunge 47% to record low on $3.2 billion rights issue",
         "link": "https://finance.yahoo.com/markets/stocks/articles/world-shares-plunge-47-record-052052173.html?.tsrc=rss",
@@ -563,12 +737,6 @@
         "link": "https://finance.yahoo.com/technology/ai/articles/tencent-shares-jump-6-three-045038196.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: ^HSI News",
         "time": "Thu, 05 Nov 2026 04:50:38 +0000"
-      },
-      {
-        "title": "Michael Burry Sees Up to 140% Upside in One Stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sees-140-upside-150908033.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: ^HSI News",
-        "time": "Tue, 03 Nov 2026 15:09:08 +0000"
       }
     ],
     "^FTSE": [
@@ -649,81 +817,87 @@
     ],
     "NVDA": [
       {
-        "title": "Sam Altman weighs in on Jensen Huang's potential Nvidia comeback",
-        "link": "https://finance.yahoo.com/video/sam-altman-weighs-in-on-jensen-huangs-potential-nvidia-comeback-184934634.html?.tsrc=rss",
+        "title": "Dow, S&P 500, Nasdaq Futures Mixed Ahead Of Much-Anticipated Nvidia Earnings, Anthropic IPO: SLS, BABA, JPM, OMER In Focus",
+        "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-mixed-ahead-of-much-anticipated-nvidia-earnings-anthropic-ipo-sls-baba-jpm-omer-in-focus/cNba1SfR9gr?.tsrc=rss",
         "publisher": "Yahoo! Finance: NVDA News",
-        "time": "Mon, 16 Nov 2026 18:49:34 +0000"
+        "time": "Tue, 17 Nov 2026 04:06:22 +0000"
       },
       {
-        "title": "Samsung Stocks Fall 4.47% as Nvidia Turmoil and DRAM Lawsuit Hit Seoul",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/samsung-stocks-fall-4-47-185426586.html?.tsrc=rss",
+        "title": "SPCX Stock Dethrones Intel As Nvidia\u2019s Biggest Holding \u2014 Druckenmiller Buys In And Tepper Ups His Stake Over 1,600%",
+        "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-dethrones-intel-nvidia-biggest-holding-druckenmiller-buys-in-tepper-ups-stake/cNba0UWR9gq?.tsrc=rss",
         "publisher": "Yahoo! Finance: NVDA News",
-        "time": "Mon, 16 Nov 2026 18:54:26 +0000"
+        "time": "Tue, 17 Nov 2026 03:45:50 +0000"
       },
       {
-        "title": "Jensen Huang\u2019s Return To Nvidia Under Jeopardy As Nvidia\u2019s Board Reportedly Refutes Reinstatement Plans",
-        "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-return-to-nvidia-under-jeopardy-as-nvidia-s-board-reportedly-refutes-reinstatement-plans/cNb7DzGR9gg?.tsrc=rss",
+        "title": "Nvidia's Biggest Jensen Huang Problem Was Hiding in Plain Sight",
+        "link": "https://www.fool.com/investing/2026/11/16/nvidia-s-biggest-jensen-huang-problem-was-hiding-in-plain-sight/?.tsrc=rss",
         "publisher": "Yahoo! Finance: NVDA News",
-        "time": "Mon, 16 Nov 2026 18:51:26 +0000"
+        "time": "Tue, 17 Nov 2026 03:44:01 +0000"
       },
       {
-        "title": "Nvidia board not discussing Jensen Huang\u2019s return as CEO, CNBC reports",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-board-not-discussing-jensen-185108188.html?.tsrc=rss",
+        "title": "Bessent Says Nvidia Needs A \u201cDramatic Shakeup,\u201d As A Singapore Firm Reportedly Moved At Least $7.5 Billion Of Nvidia Chips To China.",
+        "link": "https://247wallst.com/investing/2026/11/16/bessent-says-nvidia-needs-a-dramatic-shakeup-as-a-singapore-firm-reportedly-moved-at-least-7-5-billion-of-nvidia-chips-to-china/?.tsrc=rss",
         "publisher": "Yahoo! Finance: NVDA News",
-        "time": "Mon, 16 Nov 2026 18:51:08 +0000"
+        "time": "Tue, 17 Nov 2026 03:43:42 +0000"
       },
       {
-        "title": "Stock Market Today: Dow Dives As Trump Says This On Huang; Victoria's Secret Flashes Sell Signal (Live Coverage)",
-        "link": "https://finance.yahoo.com/m/befe3344-5a22-304e-a07d-6ff7ad87bf49/stock-market-today%3A-dow-dives.html?.tsrc=rss",
+        "title": "Dow Jones Futures: AMD, Nvidia, Micron Lead AI Trade Lower With Nvidia Earnings On Deck",
+        "link": "https://finance.yahoo.com/m/d0a3411e-5f2b-302d-801a-a42b1d7ca5ea/dow-jones-futures%3A-amd%2C.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: NVDA News",
-        "time": "Mon, 16 Nov 2026 18:44:54 +0000"
+        "time": "Tue, 17 Nov 2026 03:20:17 +0000"
       },
       {
-        "title": "Nvidia Poised for Third-Quarter Beat Amid CEO Transition, BofA Says",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-poised-third-quarter-beat-184256944.html?.tsrc=rss",
+        "title": "Is NVIDIA\u2019s Turmoil Advanced Micro Devices\u2019 (AMD) Biggest Opening Yet?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-turmoil-advanced-micro-devices-031446562.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: NVDA News",
-        "time": "Mon, 16 Nov 2026 18:42:56 +0000"
+        "time": "Tue, 17 Nov 2026 03:14:46 +0000"
       }
     ],
     "TSLA": [
       {
-        "title": "Tesla to sell Cybercabs to 'select' customers: What to know",
-        "link": "https://finance.yahoo.com/video/tesla-to-sell-cybercabs-to-select-customers-what-to-know-150928006.html?.tsrc=rss",
+        "title": "Cathie Wood\u2019s $2.2 Billion Bet on Elon Musk Could Soon Become One Giant Stock",
+        "link": "https://247wallst.com/investing/2026/11/16/cathie-woods-2-2-billion-bet-on-elon-musk-could-soon-become-one-giant-stock/?.tsrc=rss",
         "publisher": "Yahoo! Finance: TSLA News",
-        "time": "Mon, 16 Nov 2026 15:09:28 +0000"
+        "time": "Tue, 17 Nov 2026 03:23:00 +0000"
       },
       {
-        "title": "Sector Update: Consumer Stocks Mixed Monday Afternoon",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-monday-183618178.html?.tsrc=rss",
+        "title": "Tesla board member Joe Gebbia: Nvidia should \u201creinstate\u201d Jensen Huang to let investigation play out",
+        "link": "https://finance.yahoo.com/video/tesla-board-member-joe-gebbia-010013441.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: TSLA News",
-        "time": "Mon, 16 Nov 2026 18:36:18 +0000"
+        "time": "Tue, 17 Nov 2026 01:00:13 +0000"
       },
       {
-        "title": "Tesla goes all-in on the Cybercab with upcoming \u20ac3B Berlin Gigafactory expansion",
-        "link": "https://finance.yahoo.com/technology/ai/articles/tesla-goes-cybercab-upcoming-3b-182114108.html?.tsrc=rss",
+        "title": "S&P 500, Dow, Nasdaq End Lower As Investors Hold Back Ahead Of Nvidia Earnings, Anthropic IPO This Week \u2014  NVDA, TSLA, ANT In Focus",
+        "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-as-investors-hold-back-ahead-of-nvidia-earnings-anthropic-ipo/cNbaf4PR9gk?.tsrc=rss",
         "publisher": "Yahoo! Finance: TSLA News",
-        "time": "Mon, 16 Nov 2026 18:21:14 +0000"
+        "time": "Tue, 17 Nov 2026 00:09:28 +0000"
       },
       {
-        "title": "Tesla Wants to Build 1 Million Cybercabs Near Berlin",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-wants-build-1-million-181721398.html?.tsrc=rss",
+        "title": "Your $300,000 in XLY Holds $125,585 in Amazon and Tesla Alone",
+        "link": "https://247wallst.com/investing/etf/2026/11/16/your-300000-in-xly-holds-125585-in-amazon-and-tesla-alone/?.tsrc=rss",
         "publisher": "Yahoo! Finance: TSLA News",
-        "time": "Mon, 16 Nov 2026 18:17:21 +0000"
+        "time": "Mon, 16 Nov 2026 23:03:19 +0000"
       },
       {
-        "title": "Tesla to invest 3 bn euros to expand German factory",
-        "link": "https://finance.yahoo.com/economy/articles/tesla-invest-3-bn-euros-161336143.html?.tsrc=rss",
+        "title": "Tesla's Cybertruck exit reveals an expensive gamble",
+        "link": "https://www.thestreet.com/automotive/teslas-cybertruck-exit-reveals-an-expensive-gamble?.tsrc=rss",
         "publisher": "Yahoo! Finance: TSLA News",
-        "time": "Mon, 16 Nov 2026 18:04:07 +0000"
+        "time": "Mon, 16 Nov 2026 21:33:00 +0000"
       },
       {
-        "title": "Tesla Stocks Fall 2.8% as SpaceX Merger Talk Turns to Who Buys Whom",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stocks-fall-2-8-175356341.html?.tsrc=rss",
+        "title": "Tesla Sells Cybercabs To The Public. It Might Be Because Of A Bet With A YouTuber.",
+        "link": "https://finance.yahoo.com/m/40779e8f-2539-3b70-a13d-63c13ba203c1/tesla-sells-cybercabs-to-the.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: TSLA News",
-        "time": "Mon, 16 Nov 2026 17:53:56 +0000"
+        "time": "Mon, 16 Nov 2026 21:00:32 +0000"
       }
     ],
     "AAPL": [
+      {
+        "title": "What's dragging down the S&P 500? Apple in focus",
+        "link": "https://finance.yahoo.com/video/whats-dragging-down-the-sp-500-apple-in-focus-214949304.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: AAPL News",
+        "time": "Mon, 16 Nov 2026 21:49:49 +0000"
+      },
       {
         "title": "Eli Lilly is trouncing Nvidia \u2014 and the weight-loss drug trade is beating AI again",
         "link": "https://finance.yahoo.com/markets/article/eli-lilly-is-trouncing-nvidia--and-the-weight-loss-drug-trade-is-beating-ai-again-170530198.html?.tsrc=rss",
@@ -731,110 +905,104 @@
         "time": "Mon, 16 Nov 2026 17:05:30 +0000"
       },
       {
-        "title": "Apple Is \u201cLiterally the Trade of the Year\u201d Says Josh Brown, for a Very Simple Reason",
-        "link": "https://www.tikr.com/blog/apple-is-literally-the-trade-of-the-year-says-josh-brown-for-a-very-simple-reason?ref=yahoofinance&tlnk=yf-261116-3qvmffq8&.tsrc=rss",
+        "title": "Berkshire Boosts Lennar, Starts Bending Spoons, Trims Bank Of America In Q3",
+        "link": "https://stocktwits.com/news-articles/markets/equity/berkshire-boosts-lennar-starts-bending-spoons-trims-bank-of-america-in-q3/cNbJ2orR9g1?.tsrc=rss",
         "publisher": "Yahoo! Finance: AAPL News",
-        "time": "Mon, 16 Nov 2026 16:49:15 +0000"
+        "time": "Mon, 16 Nov 2026 23:02:47 +0000"
       },
       {
-        "title": "Trump Says Jensen Huang Did Not Put National Security at Risk",
-        "link": "https://finance.yahoo.com/video/trump-says-jensen-huang-did-152012378.html?.tsrc=rss",
+        "title": "The Tech Resale Market Is Booming. That\u2019s Good News for Apple.",
+        "link": "https://finance.yahoo.com/m/3550bffb-77d4-3b23-b91e-3aaa0b12b846/the-tech-resale-market-is.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: AAPL News",
-        "time": "Mon, 16 Nov 2026 15:20:12 +0000"
+        "time": "Mon, 16 Nov 2026 21:11:00 +0000"
       },
       {
-        "title": "Is Apple Losing Its Memory?",
-        "link": "https://www.fool.com/investing/2026/11/16/is-apple-losing-its-memory/?.tsrc=rss",
+        "title": "Elon Musk Warns Against Pushing Founders Out \u2014 Steve Jobs and Travis Kalanick Lessons Resurface as Jensen Huang Exits Nvidia",
+        "link": "https://finance.yahoo.com/small-business/articles/elon-musk-warns-against-pushing-193008615.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: AAPL News",
-        "time": "Mon, 16 Nov 2026 14:20:02 +0000"
+        "time": "Mon, 16 Nov 2026 19:30:08 +0000"
       },
       {
-        "title": "Apple (AAPL) Picks Core Foldable Glass Supplier For iPhone Duo",
-        "link": "https://finance.yahoo.com/technology/articles/apple-aapl-picks-core-foldable-141052861.html?.tsrc=rss",
+        "title": "Apple adds facial recognition unlock to iPhone Duo",
+        "link": "https://finance.yahoo.com/news/apple-adds-facial-recognition-unlock-191440685.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: AAPL News",
-        "time": "Mon, 16 Nov 2026 14:10:52 +0000"
-      },
-      {
-        "title": "unspun Appoints Chuck Shehadi as Chief Executive Officer",
-        "link": "https://finance.yahoo.com/technology/articles/unspun-appoints-chuck-shehadi-chief-140000509.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: AAPL News",
-        "time": "Mon, 16 Nov 2026 14:00:00 +0000"
+        "time": "Mon, 16 Nov 2026 19:14:40 +0000"
       }
     ],
     "MSFT": [
       {
-        "title": "Bill Gates Issues Grim Warning That \u2018Many Jobs Will Disappear Forever\u2019 Due to \u2018Turbulent AI Era\u2019",
-        "link": "https://firstformoney.com/bill-gates-issues-grim-warning-that-many-jobs-will-disappear-forever-due-to-turbulent-ai-era/?.tsrc=rss",
+        "title": "Bill Ackman Adds More To Netflix In Q3; Exits Hertz, Cuts Microsoft",
+        "link": "https://stocktwits.com/news-articles/markets/equity/bill-ackman-adds-more-to-netflix-in-q3-exits-hertz-cuts-microsoft/cNbaf33R9gj?.tsrc=rss",
         "publisher": "Yahoo! Finance: MSFT News",
-        "time": "Mon, 16 Nov 2026 18:22:15 +0000"
+        "time": "Tue, 17 Nov 2026 00:08:07 +0000"
       },
       {
-        "title": "How to make the most of Microsoft\u2019s tried-and-true workflows",
-        "link": "https://financialpost.com/business-essentials/microsoft-office-2024-professional-plus/?.tsrc=rss",
+        "title": "Learn Why The Bull Case For IBM Stock Could Change Following Quantum Computing Expansion",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-ibm-231929118.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: MSFT News",
-        "time": "Mon, 16 Nov 2026 18:09:31 +0000"
+        "time": "Mon, 16 Nov 2026 23:19:29 +0000"
       },
       {
-        "title": "Microsoft Reveals Hidden Bug Behind Massive Global Outage",
-        "link": "https://finance.yahoo.com/technology/articles/microsoft-reveals-hidden-bug-behind-170537643.html?.tsrc=rss",
+        "title": "Armada Named a Priority Team Leader in the American SI Exports Program",
+        "link": "https://finance.yahoo.com/technology/articles/armada-named-priority-team-leader-230900257.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: MSFT News",
-        "time": "Mon, 16 Nov 2026 17:05:37 +0000"
+        "time": "Mon, 16 Nov 2026 23:09:00 +0000"
       },
       {
-        "title": "Microsoft Pinpoints What Knocked Outlook Offline Worldwide",
-        "link": "https://finance.yahoo.com/technology/articles/microsoft-pinpoints-knocked-outlook-offline-154057711.html?.tsrc=rss",
+        "title": "A Third Outage Strikes, This Time at Chase, Big Banks. The Stocks Are Falling.",
+        "link": "https://finance.yahoo.com/m/8966c28b-5797-3a88-8c32-01d28a7b29a1/a-third-outage-strikes%2C-this.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: MSFT News",
-        "time": "Mon, 16 Nov 2026 15:40:57 +0000"
+        "time": "Mon, 16 Nov 2026 22:18:00 +0000"
       },
       {
-        "title": "Thread AI Joins the Microsoft for Startups Pegasus Program to Deliver its AI Workflow Orchestration Platform on Microsoft Marketplace",
-        "link": "https://finance.yahoo.com/technology/ai/articles/thread-ai-joins-microsoft-startups-154000458.html?.tsrc=rss",
+        "title": "Chase Bank outage sparks issues for customers at several major US banks",
+        "link": "https://www.independent.co.uk/tech/us-bank-outages-chase-wells-fargo-zelle-b3085937.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: MSFT News",
-        "time": "Mon, 16 Nov 2026 15:40:00 +0000"
+        "time": "Mon, 16 Nov 2026 21:53:52 +0000"
       },
       {
-        "title": "Global Joint All-Domain Command and Control (JADC2) Systems Market Report 2026 | Lockheed Martin, RTX, AWS and Microsoft Drive AI, Cloud and Edge Growth to $57.69 Billion by 2030",
-        "link": "https://finance.yahoo.com/technology/ai/articles/global-joint-domain-command-control-153100193.html?.tsrc=rss",
+        "title": "Microsoft (MSFT) Is One of NVIDIA\u2019s Biggest Customers, and a Growing Rival",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-one-nvidia-biggest-213025809.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: MSFT News",
-        "time": "Mon, 16 Nov 2026 15:31:00 +0000"
+        "time": "Mon, 16 Nov 2026 21:30:25 +0000"
       }
     ],
     "AMZN": [
       {
-        "title": "Amazon\u2019s Big Week: First a New James Bond, Then Anthropic\u2019s IPO",
-        "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63310662/amazon-anthropic-ipo-pattinson?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "title": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+        "link": "https://finance.yahoo.com/video/nvidia-is-not-considering-rehiring-jensen-huang-and-amazons-data-center-gets-bought-221405344.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: AMZN News",
-        "time": "Mon, 16 Nov 2026 18:22:57 +0000"
+        "time": "Mon, 16 Nov 2026 22:14:05 +0000"
       },
       {
-        "title": "Something Is Changing at Amazon, and Investors Should Pay Attention",
-        "link": "https://247wallst.com/investing/2026/11/16/something-is-changing-at-amazon-and-investors-should-pay-attention/?.tsrc=rss",
+        "title": "Boeing (BA) ULA Rocket Failure Halts Deployment Of 40 Broadband Satellites",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-ula-rocket-failure-001959401.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: AMZN News",
-        "time": "Mon, 16 Nov 2026 16:03:42 +0000"
+        "time": "Tue, 17 Nov 2026 00:19:59 +0000"
       },
       {
-        "title": "Amazon puts Arnold Schwarzenegger in Santa suit to extend holiday push",
-        "link": "https://www.marketingdive.com/news/amazon-puts-arnold-schwarzenegger-in-santa-suit-to-extend-holiday-push/874675/?.tsrc=rss",
+        "title": "/C O R R E C T I O N - Unifor/",
+        "link": "https://finance.yahoo.com/news/u-p-d-t-e-021400633.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: AMZN News",
-        "time": "Mon, 16 Nov 2026 14:56:00 +0000"
+        "time": "Tue, 17 Nov 2026 00:10:00 +0000"
       },
       {
-        "title": "Blackstone's Data Center REIT Makes First Investment With $5B AWS Deal",
-        "link": "https://www.bisnow.com/news/national/data-center/blackstone-s-data-center-reit-makes-first-investment-with-5b-deal-with-aws?.tsrc=rss",
+        "title": "Your $300,000 in XLY Holds $125,585 in Amazon and Tesla Alone",
+        "link": "https://247wallst.com/investing/etf/2026/11/16/your-300000-in-xly-holds-125585-in-amazon-and-tesla-alone/?.tsrc=rss",
         "publisher": "Yahoo! Finance: AMZN News",
-        "time": "Mon, 16 Nov 2026 14:52:43 +0000"
+        "time": "Mon, 16 Nov 2026 23:03:19 +0000"
       },
       {
-        "title": "Amazon faces first North American union contract at Canadian warehouse",
-        "link": "https://www.retail-insight-network.com/news/amazon-faces-first-north-american-union-contract/?.tsrc=rss",
+        "title": "Stock Market Today, Nov. 16: Amazon Falls on New AI Chip Export Rule and Leo Satellite Launch Failure",
+        "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-amazon-falls-on-new-ai-chip-export-rule-and-leo-satellite-launch-failure/?.tsrc=rss",
         "publisher": "Yahoo! Finance: AMZN News",
-        "time": "Mon, 16 Nov 2026 14:30:04 +0000"
+        "time": "Mon, 16 Nov 2026 22:20:33 +0000"
       },
       {
-        "title": "AST SpaceMobile Sinks 8% as ULA\u2019s Vulcan Rocket Failure Rattles Space Stocks",
-        "link": "https://www.tikr.com/blog/ast-spacemobile-sinks-8-as-ulas-vulcan-rocket-failure-rattles-space-stocks?ref=yahoofinance&tlnk=yf-261116-qqj5x5r6&.tsrc=rss",
+        "title": "TEAMSTERS RALLY TO SUPPORT AMAZON E-BIKE DELIVERY DRIVERS ILLEGALLY FIRED BY COMPANY",
+        "link": "https://finance.yahoo.com/small-business/articles/teamsters-rally-support-amazon-e-221500883.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: AMZN News",
-        "time": "Mon, 16 Nov 2026 16:15:45 +0000"
+        "time": "Mon, 16 Nov 2026 22:15:00 +0000"
       }
     ],
     "0700.HK": [
@@ -953,43 +1121,55 @@
     ],
     "CL=F": [
       {
-        "title": "Chip stocks fall on US semiconductor restrictions: AlphaCheck",
-        "link": "https://finance.yahoo.com/markets/article/copy-tech-rises-coreweave-results-reignite-ai-trade-alphacheck-150019770.html?.tsrc=rss",
+        "title": "Paz Retail And Energy (TASE:PAZ) Stock Looks Fully Valued After Oil Price Talks",
+        "link": "https://finance.yahoo.com/energy/articles/paz-retail-energy-tase-paz-021235902.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: CL=F News",
-        "time": "Mon, 16 Nov 2026 15:00:19 +0000"
+        "time": "Tue, 17 Nov 2026 02:12:35 +0000"
       },
       {
-        "title": "Sector Update: Energy Stocks Decline Monday Afternoon",
-        "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-monday-184007140.html?.tsrc=rss",
+        "title": "Singapore non-oil exports jump 79.8% in October",
+        "link": "https://finance.yahoo.com/economy/articles/singapore-non-oil-exports-jump-012228559.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: CL=F News",
-        "time": "Mon, 16 Nov 2026 18:40:07 +0000"
+        "time": "Tue, 17 Nov 2026 01:22:28 +0000"
       },
       {
-        "title": "Kolibri: 3 Key Takeaways for Long-Term Investors",
-        "link": "https://www.fool.com/earnings/takeaways/2026/11/16/kolibri-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+        "title": "FedEx Stock And Other Fuel Cost Winners If Oil Prices Stay Low",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/fedex-stock-other-fuel-cost-010951070.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: CL=F News",
-        "time": "Mon, 16 Nov 2026 15:52:56 +0000"
+        "time": "Tue, 17 Nov 2026 01:09:51 +0000"
       },
       {
-        "title": "S&P/TSX Composite Index Lower Mid-Morning as Shares in Base Metals And Energy Sectors Fall",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/p-tsx-composite-index-lower-152747667.html?.tsrc=rss",
+        "title": "Gavin Newsom Calls Trump \u2018Wholly Owned Subsidiary of Big Oil\u2019 as Iran Tensions Rattle Oil Markets: Says President\u2019s \u2018Head Is Stuck in Sand Soaked With Oil\u2019",
+        "link": "https://finance.yahoo.com/energy/articles/gavin-newsom-calls-trump-wholly-003005558.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: CL=F News",
-        "time": "Mon, 16 Nov 2026 15:27:47 +0000"
+        "time": "Tue, 17 Nov 2026 00:30:05 +0000"
       },
       {
-        "title": "BC-Crude Oil Futures",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/bc-crude-oil-futures-150025852.html?.tsrc=rss",
+        "title": "Uganda Pushes First Oil to Mid-2027 as Iran War Holds Up Equipment",
+        "link": "https://finance.yahoo.com/energy/articles/uganda-pushes-first-oil-mid-230000000.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: CL=F News",
-        "time": "Mon, 16 Nov 2026 15:00:25 +0000"
+        "time": "Mon, 16 Nov 2026 23:00:00 +0000"
       },
       {
-        "title": "Canada Commodities: Oil Prices Fall Despite Reports of Middle East Unrest",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/canada-commodities-oil-prices-fall-145214311.html?.tsrc=rss",
+        "title": "On Monday in Oil and Gas, Federal Hormuz Data Lands as Two Acquisitions Are Announced",
+        "link": "https://finance.yahoo.com/news/monday-oil-gas-federal-hormuz-220500009.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: CL=F News",
-        "time": "Mon, 16 Nov 2026 14:52:14 +0000"
+        "time": "Mon, 16 Nov 2026 22:05:00 +0000"
       }
     ],
     "NG=F": [
+      {
+        "title": "Canadian Natural Resources (TSX:CNQ) Plans To Acquire Advantage Energy",
+        "link": "https://finance.yahoo.com/energy/articles/canadian-natural-resources-tsx-cnq-020851221.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: NG=F News",
+        "time": "Tue, 17 Nov 2026 02:08:51 +0000"
+      },
+      {
+        "title": "Nat-Gas Prices Slip on Forecasts for Warmer US Weather",
+        "link": "https://www.barchart.com/story/news/8861051/nat-gas-prices-slip-on-forecasts-for-warmer-us-weather?.tsrc=rss",
+        "publisher": "Yahoo! Finance: NG=F News",
+        "time": "Mon, 16 Nov 2026 20:12:43 +0000"
+      },
       {
         "title": "Can ExxonMobil's Longtail Project Unlock Guyana's Growth Potential?",
         "link": "https://finance.yahoo.com/energy/articles/exxonmobils-longtail-project-unlock-guyanas-161700877.html?.tsrc=rss",
@@ -1013,59 +1193,71 @@
         "link": "https://finance.yahoo.com/energy/articles/heres-enis-perla-gas-expansion-144000351.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: NG=F News",
         "time": "Mon, 16 Nov 2026 14:40:00 +0000"
-      },
-      {
-        "title": "Natural Gas Up 7.7% Last Week: Can Winter Extend the Rally?",
-        "link": "https://finance.yahoo.com/energy/articles/natural-gas-7-7-last-143400637.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: NG=F News",
-        "time": "Mon, 16 Nov 2026 14:34:00 +0000"
-      },
-      {
-        "title": "4 High-Yield Energy Stocks That Get Paid to Move Oil and Gas",
-        "link": "https://247wallst.com/investing/2026/11/16/4-high-yield-energy-stocks-that-get-paid-to-move-oil-and-gas/?.tsrc=rss",
-        "publisher": "Yahoo! Finance: NG=F News",
-        "time": "Mon, 16 Nov 2026 14:17:53 +0000"
       }
     ],
     "GC=F": [
       {
-        "title": "I hate my job and I can't wait to retire as soon as I turn 62. I have $1M invested \u2014 is there any reason I can't quit?",
-        "link": "https://finance.yahoo.com/markets/articles/hate-job-cant-wait-retire-173000765.html?.tsrc=rss",
+        "title": "Goldman Sachs just revamped its 2027 gold target for the second time",
+        "link": "https://www.thestreet.com/investing/goldman-sachs-2027-gold-forecast-cut?.tsrc=rss",
         "publisher": "Yahoo! Finance: GC=F News",
-        "time": "Mon, 16 Nov 2026 17:30:00 +0000"
+        "time": "Tue, 17 Nov 2026 03:47:00 +0000"
       },
       {
-        "title": "Limitless Metals Presents the Gold Receipt",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/limitless-metals-presents-gold-receipt-170000285.html?.tsrc=rss",
+        "title": "Gold hovers near 14-month low as Fed hike bets and tech selloff weigh",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/gold-hovers-near-14-month-020906633.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: GC=F News",
-        "time": "Mon, 16 Nov 2026 17:00:00 +0000"
+        "time": "Tue, 17 Nov 2026 02:09:06 +0000"
       },
       {
-        "title": "PPX Cuts High-Grade Gold, Silver, and Copper at Portachuelos, with 5.68 g/t Au, 525.5 g/t Ag and 1.3% Cu over 5.7 m, Including 18.25 g/t Au, 3810.0 g/t Ag and 9.5% Cu Over 0.5 m",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/ppx-cuts-high-grade-gold-163000147.html?.tsrc=rss",
+        "title": "Stocks, Gold, and Asia Bleed $2.2 Trillion: Top 5 Factors That Triggered the Crash",
+        "link": "https://beincrypto.com/market-bloodbath-2-trillion-5-factors/?.tsrc=rss",
         "publisher": "Yahoo! Finance: GC=F News",
-        "time": "Mon, 16 Nov 2026 16:30:00 +0000"
+        "time": "Mon, 16 Nov 2026 23:15:00 +0000"
       },
       {
-        "title": "GreenLight Metals triples Bend project footprint, targets maiden resource in 2027",
-        "link": "https://finance.yahoo.com/video/greenlight-metals-triples-bend-project-161717111.html?.tsrc=rss",
+        "title": "Orezone revenue more than triples as record gold output lifts Q3 results",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/orezone-revenue-more-triples-record-225609453.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: GC=F News",
-        "time": "Mon, 16 Nov 2026 16:17:17 +0000"
+        "time": "Mon, 16 Nov 2026 22:56:09 +0000"
       },
       {
-        "title": "Amaroq could become a self-funding multi-commodity miner, Citi says",
-        "link": "https://www.proactiveinvestors.com/companies/news/1101820/amaroq-could-become-a-self-funding-multi-commodity-miner-citi-says-1101820.html?.tsrc=rss",
+        "title": "K92 Mining Announces Q3 2026 Financial Results \u2013 Record Cash and Net Cash Positions, Multiple Operational Records as Stage 3 Expansion Ramp-Up Gains Momentum",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/k92-mining-announces-q3-2026-220000899.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: GC=F News",
-        "time": "Mon, 16 Nov 2026 15:30:00 +0000"
+        "time": "Mon, 16 Nov 2026 22:00:00 +0000"
       },
       {
-        "title": "BC-Gold Futures",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-150034669.html?.tsrc=rss",
+        "title": "Orezone Gold Reports Third Quarter 2026 Results",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/orezone-gold-reports-third-quarter-210000404.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: GC=F News",
-        "time": "Mon, 16 Nov 2026 15:00:34 +0000"
+        "time": "Mon, 16 Nov 2026 21:00:00 +0000"
       }
     ],
     "SI=F": [
+      {
+        "title": "Silver Crashes 61% From All-Time High: One Wall Street Bull Sees A Buy Signal, Another Critic Says Wait",
+        "link": "https://stocktwits.com/news-articles/markets/equity/silver-crashes-61-from-all-time-high/cNbagFHR9gm?.tsrc=rss",
+        "publisher": "Yahoo! Finance: SI=F News",
+        "time": "Tue, 17 Nov 2026 01:43:04 +0000"
+      },
+      {
+        "title": "Endeavour Silver Intersects 3,431 g/t Silver Equivalent over 1.42 Metres at Guanacev\u00ed; Multiple High-Grade Intercepts Highlight Contraria Vein Potential",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/endeavour-silver-intersects-3-431-220000131.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: SI=F News",
+        "time": "Mon, 16 Nov 2026 22:00:00 +0000"
+      },
+      {
+        "title": "Lumina Metals Joins the Silver Institute and Its Shares Are Added to the Nasdaq Junior Silver Miners Index",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/lumina-metals-joins-silver-institute-210000534.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: SI=F News",
+        "time": "Mon, 16 Nov 2026 21:00:00 +0000"
+      },
+      {
+        "title": "BC-Gold-Silver",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-silver-200014301.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: SI=F News",
+        "time": "Mon, 16 Nov 2026 20:00:14 +0000"
+      },
       {
         "title": "Americas Gold and Silver: 3 Key Takeaways for Long-Term Investors",
         "link": "https://www.fool.com/earnings/takeaways/2026/11/16/americas-gold-and-silver-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
@@ -1077,33 +1269,27 @@
         "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-november-16-2026-lowest-open-price-in-over-a-year-140403715.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: SI=F News",
         "time": "Mon, 16 Nov 2026 14:04:03 +0000"
-      },
-      {
-        "title": "Brixton Metals Drills its Highest Silver Grades Ever in a New Shallow Brownfields Discovery at its Langis Project, Ontario",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/brixton-metals-drills-highest-silver-123000950.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: SI=F News",
-        "time": "Mon, 16 Nov 2026 12:30:00 +0000"
-      },
-      {
-        "title": "Silver could hit $75 an ounce next year as macro headwinds ease: BofA",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/silver-could-hit-75-ounce-113112402.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: SI=F News",
-        "time": "Mon, 16 Nov 2026 11:31:12 +0000"
-      },
-      {
-        "title": "Strategic Metals Reports Promising Results From the Rusty and Ranch Projects",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/strategic-metals-reports-promising-results-100000300.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: SI=F News",
-        "time": "Mon, 16 Nov 2026 10:00:00 +0000"
-      },
-      {
-        "title": "Miners lead London fallers as weak China data and metal prices hit sector",
-        "link": "https://www.proactiveinvestors.com/companies/news/1101815/miners-lead-london-fallers-as-weak-china-data-and-metal-prices-hit-sector-1101815.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: SI=F News",
-        "time": "Mon, 16 Nov 2026 08:54:00 +0000"
       }
     ],
     "HG=F": [
+      {
+        "title": "Largo Reports Q3 2026 Financial Results Start to Reflect Diversification into Copper, Gold and Platinum Group Metals as By-Product of Its Core Vanadium Business and $3.5 Million in Operating Cash Flow",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/largo-reports-q3-2026-financial-003300155.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: HG=F News",
+        "time": "Tue, 17 Nov 2026 00:33:00 +0000"
+      },
+      {
+        "title": "NexMetals Files NI 43-101 Technical Report Supporting the 2026 Selebi Mines Mineral Resource Estimate",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/nexmetals-files-ni-43-101-220000905.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: HG=F News",
+        "time": "Mon, 16 Nov 2026 22:00:00 +0000"
+      },
+      {
+        "title": "Pacific Empire Closes $1 Million Flow-Through Private Placement",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/pacific-empire-closes-1-million-194300404.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: HG=F News",
+        "time": "Mon, 16 Nov 2026 19:43:00 +0000"
+      },
       {
         "title": "S&P/TSX Composite Index Lower Mid-Morning as Shares in Base Metals And Energy Sectors Fall",
         "link": "https://finance.yahoo.com/markets/world-indices/articles/p-tsx-composite-index-lower-152747667.html?.tsrc=rss",
@@ -1121,100 +1307,82 @@
         "link": "https://finance.yahoo.com/technology/ai/articles/sputtering-targets-global-market-analysis-141300453.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: HG=F News",
         "time": "Mon, 16 Nov 2026 14:13:00 +0000"
-      },
-      {
-        "title": "Copper Intelligence Completes Acquisition of Additional Copper Mining Assets in the Democratic Republic of the Congo; Completes Private Placement",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/copper-intelligence-completes-acquisition-additional-121500971.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: HG=F News",
-        "time": "Mon, 16 Nov 2026 12:15:00 +0000"
-      },
-      {
-        "title": "Yukon Metals Intersects 33.40 g/t Gold Over 1.0 Metre and 30.8 Metres of 0.17% Copper and 0.14 g/t Gold Mineralization at Birch Project, Yukon",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/yukon-metals-intersects-33-40-120000465.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: HG=F News",
-        "time": "Mon, 16 Nov 2026 12:00:00 +0000"
-      },
-      {
-        "title": "Pecoy Copper Intersects 727 Metres at 0.30% Copper and 0.11 g/t Gold at South Breccia; Northwest Returns 220 Metres at 0.40% Copper and 0.030% Molybdenum",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/pecoy-copper-intersects-727-metres-111500643.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: HG=F News",
-        "time": "Mon, 16 Nov 2026 11:15:00 +0000"
       }
     ],
     "BTC-USD": [
       {
-        "title": "Bitcoin miners paid the electricity bill. Hackers collected the bitcoin.",
-        "link": "https://finance.yahoo.com/video/bitcoin-miners-paid-electricity-bill-190000482.html?.tsrc=rss",
+        "title": "Former UK PM Boris Johnson slams Bitcoin again",
+        "link": "https://www.thestreet.com/crypto/markets/former-uk-pm-boris-johnson-slams-bitcoin-again?.tsrc=rss",
         "publisher": "Yahoo! Finance: BTC-USD News",
-        "time": "Mon, 16 Nov 2026 19:00:00 +0000"
+        "time": "Tue, 17 Nov 2026 03:48:08 +0000"
       },
       {
-        "title": "Sector Update: Financial Stocks Softer Monday Afternoon",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-softer-monday-185015382.html?.tsrc=rss",
+        "title": "Bitcoin Bears Target $60K As Nvidia Earnings, Anthropic IPO, Bond Yields And Fed Hike Odds Weigh On Crypto Recovery",
+        "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-bear-nvidia-earnings-anthropic-fed-rate-hike-weighs-on-crypto-recovery/cNbaiD6R9gp?.tsrc=rss",
         "publisher": "Yahoo! Finance: BTC-USD News",
-        "time": "Mon, 16 Nov 2026 18:50:15 +0000"
+        "time": "Tue, 17 Nov 2026 03:06:19 +0000"
       },
       {
-        "title": "Boris Johnson Links Bitcoin to Drug Dealers But Urges UK to Lead on Blockchain",
-        "link": "https://beincrypto.com/boris-johnson-bitcoin-drug-dealers-blockchain/?.tsrc=rss",
+        "title": "Arthur Hayes Says 4 Crypto \u2018Horsemen' Will Pump, Then Usher in AI Bubble's End",
+        "link": "https://beincrypto.com/arthur-hayes-four-horsemen-ai-bubble/?.tsrc=rss",
         "publisher": "Yahoo! Finance: BTC-USD News",
-        "time": "Mon, 16 Nov 2026 18:28:42 +0000"
+        "time": "Tue, 17 Nov 2026 02:25:33 +0000"
       },
       {
-        "title": "Robinhood Stocks Fall 5.4% as Crypto Rout Pressures a Shrinking Revenue Line",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/robinhood-stocks-fall-5-4-175615099.html?.tsrc=rss",
+        "title": "As Bitcoin Plummets, Trump Media Warns It May Have To Sell Some To Repay Noteholders. Here\u2019s Why Nov. 30 Is The Key Date For Its $1 Billion In Notes",
+        "link": "https://247wallst.com/investing/2026/11/16/as-bitcoin-plummets-trump-media-warns-it-may-have-to-sell-some-to-repay-noteholders-heres-why-nov-30-is-the-key-date-for-its-1-billion-in-notes/?.tsrc=rss",
         "publisher": "Yahoo! Finance: BTC-USD News",
-        "time": "Mon, 16 Nov 2026 17:56:15 +0000"
+        "time": "Tue, 17 Nov 2026 02:24:54 +0000"
       },
       {
-        "title": "390-year-old Ivy League university quietly hoards Bitcoin and gold",
-        "link": "https://www.thestreet.com/crypto/markets/this-390-year-old-university-is-quietly-betting-big-on-bitcoin-and-gold?.tsrc=rss",
+        "title": "Strive Inc. (ASST) Gets Beaten by This Million-Dollar Move",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/strive-inc-asst-gets-beaten-014533734.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: BTC-USD News",
-        "time": "Mon, 16 Nov 2026 17:53:58 +0000"
+        "time": "Tue, 17 Nov 2026 01:45:33 +0000"
       },
       {
-        "title": "Strategy Stocks Fall 7% as Bitcoin Trades Below Its $75,452 Average Cost",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-stocks-fall-7-bitcoin-174858005.html?.tsrc=rss",
+        "title": "Nvidia Directors Rule Out Huang\u2019s Return as Company Prepares to Report Earnings",
+        "link": "https://www.cryptoprowl.com/releases/nvidia-directors-rule-out-huangs-return-as-company-prepares-to-report-earnings-7937?.tsrc=rss",
         "publisher": "Yahoo! Finance: BTC-USD News",
-        "time": "Mon, 16 Nov 2026 17:48:58 +0000"
+        "time": "Tue, 17 Nov 2026 00:37:00 +0000"
       }
     ],
     "ETH-USD": [
+      {
+        "title": "Hive Digital CEO says its five-year-old Nvidia GPUs still produce cash flow",
+        "link": "https://www.thestreet.com/crypto/innovation/hive-digital-ceo-says-its-five-year-old-nvidia-gpus-still-produce-cash-flow?.tsrc=rss",
+        "publisher": "Yahoo! Finance: ETH-USD News",
+        "time": "Mon, 16 Nov 2026 23:51:49 +0000"
+      },
+      {
+        "title": "Crypto Market Today, Nov. 16: Bitcoin Searches for Stability After $230 Billion Crypto Sell-Off",
+        "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/crypto-market-today-nov-16-bitcoin-searches-for-stability-after-usd230-billion-crypto-sell-off/?.tsrc=rss",
+        "publisher": "Yahoo! Finance: ETH-USD News",
+        "time": "Mon, 16 Nov 2026 23:00:02 +0000"
+      },
+      {
+        "title": "Binance founder breaks silence on Bitcoin crash",
+        "link": "https://www.thestreet.com/crypto/markets/binance-founder-breaks-silence-on-bitcoin-crash?.tsrc=rss",
+        "publisher": "Yahoo! Finance: ETH-USD News",
+        "time": "Mon, 16 Nov 2026 22:30:00 +0000"
+      },
+      {
+        "title": "Lighter halts withdrawals after $15.5 million drained via stolen API key",
+        "link": "https://finance.yahoo.com/video/lighter-halts-withdrawals-15-5-210000335.html?.tsrc=rss",
+        "publisher": "Yahoo! Finance: ETH-USD News",
+        "time": "Mon, 16 Nov 2026 21:00:00 +0000"
+      },
+      {
+        "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
+        "link": "https://decrypt.co/383364/tom-lee-blames-nvidia-anthropic-ipo-ethereum-plunge-bitmine-buys?.tsrc=rss",
+        "publisher": "Yahoo! Finance: ETH-USD News",
+        "time": "Mon, 16 Nov 2026 20:36:03 +0000"
+      },
       {
         "title": "Binance\u2019s Pay Later lets you spend up to $1,000 without selling Bitcoin",
         "link": "https://www.thestreet.com/crypto/innovation/binances-pay-later-lets-you-spend-up-to-1000-without-selling-bitcoin?.tsrc=rss",
         "publisher": "Yahoo! Finance: ETH-USD News",
         "time": "Mon, 16 Nov 2026 17:15:00 +0000"
-      },
-      {
-        "title": "Crypto Market Loses About $330 Billion in a Week as Bitcoin Slides and Inflation Fears Mount",
-        "link": "https://www.ibtimes.com/crypto-market-selloff-bitcoin-ether-losses-inflation-3809804?.tsrc=rss",
-        "publisher": "Yahoo! Finance: ETH-USD News",
-        "time": "Mon, 16 Nov 2026 16:58:29 +0000"
-      },
-      {
-        "title": "Tom Lee Points to Anthropic IPO as Ether Slide Cuts Bitmine\u2019s Holdings to $11.8 Billion",
-        "link": "https://unchainedcrypto.com/tom-lee-points-to-anthropic-ipo-as-ether-slide-cuts-bitmines-holdings-to-11-8-billion/?.tsrc=rss",
-        "publisher": "Yahoo! Finance: ETH-USD News",
-        "time": "Mon, 16 Nov 2026 16:45:43 +0000"
-      },
-      {
-        "title": "Bitmine Adds 7,653 ETH as Tom Lee Defends Ethereum Fundamentals",
-        "link": "https://www.cryptoprowl.com/releases/bitmine-adds-7653-eth-as-tom-lee-defends-ethereum-fundamentals-7928?.tsrc=rss",
-        "publisher": "Yahoo! Finance: ETH-USD News",
-        "time": "Mon, 16 Nov 2026 15:27:00 +0000"
-      },
-      {
-        "title": "Is Mark Zuckerberg Bullish on Vitalik Buterin? Meta AI Predicts ETH to Explode",
-        "link": "https://99bitcoins.com/news/altcoins/is-mark-zuckerberg-bullish-on-vitalik-buterin-meta-ai-predicts-eth-to-explode/?.tsrc=rss",
-        "publisher": "Yahoo! Finance: ETH-USD News",
-        "time": "Mon, 16 Nov 2026 15:16:23 +0000"
-      },
-      {
-        "title": "Tom Lee Says Ethereum\u2019s Slide Ahead Of Anthropic IPO Mirrors Its Sell-Off Before SpaceX IPO",
-        "link": "https://stocktwits.com/news-articles/markets/equity/tom-lee-ethereum-slide-ahead-of-anthropic-ipo-mirrors-spacex-ipo/cNb7qNgR9g3?.tsrc=rss",
-        "publisher": "Yahoo! Finance: ETH-USD News",
-        "time": "Mon, 16 Nov 2026 14:53:45 +0000"
       }
     ],
     "TLT": [
@@ -1295,6 +1463,12 @@
     ],
     "HYG": [
       {
+        "title": "Junk Bonds, Emerging Markets and Foreign Debt: 3 Monthly Checks and the Risk Behind Them",
+        "link": "https://247wallst.com/investing/etf/2026/11/16/junk-bonds-emerging-markets-and-foreign-debt-3-monthly-checks-and-the-risk-behind-them/?.tsrc=rss",
+        "publisher": "Yahoo! Finance: HYG News",
+        "time": "Mon, 16 Nov 2026 21:07:00 +0000"
+      },
+      {
         "title": "4 ETFs Seeing Unusual Options Volume Today",
         "link": "https://finance.yahoo.com/markets/options/articles/4-etfs-seeing-unusual-options-165746961.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: HYG News",
@@ -1323,12 +1497,6 @@
         "link": "https://247wallst.com/investing/etf/2026/11/04/4-monthly-etfs-that-pay-on-different-days-so-your-checks-arrive-all-month-long/?.tsrc=rss",
         "publisher": "Yahoo! Finance: HYG News",
         "time": "Wed, 04 Nov 2026 10:43:42 +0000"
-      },
-      {
-        "title": "HYG Handed a $300,000 Holder $18,255 of Taxable Income and $5,550 of Actual Gain",
-        "link": "https://247wallst.com/investing/etf/2026/10/12/hyg-handed-a-300000-holder-18255-of-taxable-income-and-5550-of-actual-gain/?.tsrc=rss",
-        "publisher": "Yahoo! Finance: HYG News",
-        "time": "Tue, 13 Oct 2026 01:03:03 +0000"
       }
     ],
     "LQD": [
@@ -1371,6 +1539,12 @@
     ],
     "DX-Y.NYB": [
       {
+        "title": "Dollar Supported by Weak Stocks and Fed Tightening Prospects",
+        "link": "https://www.barchart.com/story/news/8861447/dollar-supported-by-weak-stocks-and-fed-tightening-prospects?.tsrc=rss",
+        "publisher": "Yahoo! Finance: DX-Y.NYB News",
+        "time": "Mon, 16 Nov 2026 20:34:49 +0000"
+      },
+      {
         "title": "Toy sales aren\u2019t just about kids anymore",
         "link": "https://www.retaildive.com/news/toy-sales-growth-adults-circana/874706/?.tsrc=rss",
         "publisher": "Yahoo! Finance: DX-Y.NYB News",
@@ -1389,22 +1563,16 @@
         "time": "Mon, 16 Nov 2026 15:50:00 +0000"
       },
       {
+        "title": "Dollar Climbs on Stock Weakness and Fed Tightening Prospects",
+        "link": "https://www.barchart.com/story/news/8856822/dollar-climbs-on-stock-weakness-and-fed-tightening-prospects?.tsrc=rss",
+        "publisher": "Yahoo! Finance: DX-Y.NYB News",
+        "time": "Mon, 16 Nov 2026 15:30:32 +0000"
+      },
+      {
         "title": "Play U.S. Dollar's Biggest Weekly Gain in Two Months With These ETFs",
         "link": "https://finance.yahoo.com/markets/currencies/articles/play-u-dollars-biggest-weekly-150000671.html?.tsrc=rss",
         "publisher": "Yahoo! Finance: DX-Y.NYB News",
         "time": "Mon, 16 Nov 2026 15:00:00 +0000"
-      },
-      {
-        "title": "Here\u2019s What Could Stop the Dollar\u2019s Relentless Climb",
-        "link": "https://finance.yahoo.com/m/aa859ddc-37b0-3bf1-aa8a-26be9cc3b0b4/here%E2%80%99s-what-could-stop-the.html?.tsrc=rss",
-        "publisher": "Yahoo! Finance: DX-Y.NYB News",
-        "time": "Mon, 16 Nov 2026 14:15:00 +0000"
-      },
-      {
-        "title": "VEON Targets 12\u201315% Annual Revenue and EBITDA Growth Through 2030, Plans $200 Million in Yearly Shareholder Returns",
-        "link": "https://investorshub.advfn.com/market-news/article/40095/veon-targets-12-15-annual-revenue-and-ebitda-growth-through-2030-plans-200-million-in-yearly-shareholder-returns?.tsrc=rss",
-        "publisher": "Yahoo! Finance: DX-Y.NYB News",
-        "time": "Mon, 16 Nov 2026 13:32:18 +0000"
       }
     ],
     "EURUSD=X": [
